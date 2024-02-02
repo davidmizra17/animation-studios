@@ -8,7 +8,7 @@ package animationstudios;
  *
  * @author davidmizrahi
  */
-public class Ensambler extends Thread{
+public class Assembler extends Thread{
     private Drive drive;
     
 }
