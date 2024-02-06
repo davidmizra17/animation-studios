@@ -40,8 +40,8 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         CambioValores = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        InicioSimulacion = new javax.swing.JButton();
+        Titulo = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -54,100 +54,100 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        velmaIntro = new javax.swing.JTextField();
-        velmaIntro1 = new javax.swing.JTextField();
-        velmaIntro2 = new javax.swing.JTextField();
-        velmaIntro3 = new javax.swing.JTextField();
-        velmaIntro4 = new javax.swing.JTextField();
-        velmaIntro5 = new javax.swing.JTextField();
-        velmaIntro6 = new javax.swing.JTextField();
-        velmaIntro7 = new javax.swing.JTextField();
-        velmaIntro8 = new javax.swing.JTextField();
-        velmaIntro9 = new javax.swing.JTextField();
+        EnsambladoresDC = new javax.swing.JTextField();
+        GuionistasDC = new javax.swing.JTextField();
+        DesignersDC = new javax.swing.JTextField();
+        AnimadoresDC = new javax.swing.JTextField();
+        ActoresDC = new javax.swing.JTextField();
+        EnsambladoresSC = new javax.swing.JTextField();
+        GuionistasSC = new javax.swing.JTextField();
+        DesignersSC = new javax.swing.JTextField();
+        AnimadoresSC = new javax.swing.JTextField();
+        ActoresSC = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
-        velmaIntro15 = new javax.swing.JTextField();
-        velmaIntro16 = new javax.swing.JTextField();
-        velmaIntro17 = new javax.swing.JTextField();
-        velmaIntro18 = new javax.swing.JTextField();
-        velmaIntro19 = new javax.swing.JTextField();
-        velmaIntro20 = new javax.swing.JTextField();
-        velmaIntro21 = new javax.swing.JTextField();
-        velmaIntro22 = new javax.swing.JTextField();
-        velmaIntro23 = new javax.swing.JTextField();
-        velmaIntro24 = new javax.swing.JTextField();
+        PlotTwistActivosDC = new javax.swing.JTextField();
+        GuionesActivosDC = new javax.swing.JTextField();
+        EscenariosActivosDC = new javax.swing.JTextField();
+        AnimacionesActivasDC = new javax.swing.JTextField();
+        DoblajesActivosDC = new javax.swing.JTextField();
+        CapacidadPlotTwistDC = new javax.swing.JTextField();
+        CapacidadGuionesDC = new javax.swing.JTextField();
+        CapacidadEscenariosDC = new javax.swing.JTextField();
+        CapacidadAnimacionesDC = new javax.swing.JTextField();
+        CapacidadDoblajesDC = new javax.swing.JTextField();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
-        velmaIntro25 = new javax.swing.JTextField();
-        velmaIntro26 = new javax.swing.JTextField();
-        velmaIntro27 = new javax.swing.JTextField();
-        velmaIntro28 = new javax.swing.JTextField();
-        velmaIntro29 = new javax.swing.JTextField();
-        velmaIntro30 = new javax.swing.JTextField();
-        velmaIntro31 = new javax.swing.JTextField();
-        velmaIntro32 = new javax.swing.JTextField();
-        velmaIntro33 = new javax.swing.JTextField();
-        velmaIntro34 = new javax.swing.JTextField();
+        PlotTwistActivosSC = new javax.swing.JTextField();
+        GuionesActivosSC = new javax.swing.JTextField();
+        EscenariosActivosSC = new javax.swing.JTextField();
+        AnimacionesActivasSC = new javax.swing.JTextField();
+        DoblajesActivosSC = new javax.swing.JTextField();
+        CapacidadPlotTwistSC = new javax.swing.JTextField();
+        CapacidadGuionesSC = new javax.swing.JTextField();
+        CapacidadEscenariosSC = new javax.swing.JTextField();
+        CapacidadAnimacionesSC = new javax.swing.JTextField();
+        CapacidadDoblajesSC = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        velmaIntro10 = new javax.swing.JTextField();
+        GuionistasPTSC = new javax.swing.JTextField();
         velmaIntro11 = new javax.swing.JTextField();
-        velmaIntro12 = new javax.swing.JTextField();
+        GuionistasPTDC = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
         velmaIntro13 = new javax.swing.JTextField();
         jLabel20 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
-        velmaIntro35 = new javax.swing.JTextField();
-        velmaIntro36 = new javax.swing.JTextField();
+        CapitulosTerminadosDC = new javax.swing.JTextField();
+        CapitulosTerminadosPTDC = new javax.swing.JTextField();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        velmaIntro37 = new javax.swing.JTextField();
-        velmaIntro38 = new javax.swing.JTextField();
+        CapitulosTerminadosSC = new javax.swing.JTextField();
+        CapitulosTerminadosPTSC = new javax.swing.JTextField();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
-        velmaIntro39 = new javax.swing.JTextField();
-        velmaIntro40 = new javax.swing.JTextField();
+        ActividadPM = new javax.swing.JTextField();
+        FaltasPM = new javax.swing.JTextField();
         jLabel38 = new javax.swing.JLabel();
-        velmaIntro41 = new javax.swing.JTextField();
+        ActividadDirector = new javax.swing.JTextField();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
-        velmaIntro43 = new javax.swing.JTextField();
-        velmaIntro44 = new javax.swing.JTextField();
-        velmaIntroDown = new javax.swing.JButton();
-        velmaIntroDown1 = new javax.swing.JButton();
-        velmaIntroDown2 = new javax.swing.JButton();
-        velmaIntroDown3 = new javax.swing.JButton();
-        velmaIntroDown4 = new javax.swing.JButton();
-        velmaIntroDown5 = new javax.swing.JButton();
-        velmaIntroDown6 = new javax.swing.JButton();
-        velmaIntroDown7 = new javax.swing.JButton();
-        velmaIntroDown8 = new javax.swing.JButton();
-        velmaIntroDown9 = new javax.swing.JButton();
-        velmaIntroDown10 = new javax.swing.JButton();
-        velmaIntroDown11 = new javax.swing.JButton();
-        velmaCierreUp = new javax.swing.JButton();
-        velmaCierreUp1 = new javax.swing.JButton();
-        velmaCierreUp2 = new javax.swing.JButton();
-        velmaCierreUp3 = new javax.swing.JButton();
-        velmaCierreUp4 = new javax.swing.JButton();
-        velmaCierreUp5 = new javax.swing.JButton();
-        velmaCierreUp6 = new javax.swing.JButton();
-        velmaCierreUp7 = new javax.swing.JButton();
-        velmaCierreUp8 = new javax.swing.JButton();
-        velmaCierreUp9 = new javax.swing.JButton();
-        velmaCierreUp10 = new javax.swing.JButton();
-        velmaCierreUp11 = new javax.swing.JButton();
+        DescuentoPM = new javax.swing.JTextField();
+        SalarioPM = new javax.swing.JTextField();
+        DownAnimadoresDC = new javax.swing.JButton();
+        DownActoresDC = new javax.swing.JButton();
+        DownGuionistasPTDC = new javax.swing.JButton();
+        DownDesignersDC = new javax.swing.JButton();
+        DownGuionistasDC = new javax.swing.JButton();
+        DownDesignersSC = new javax.swing.JButton();
+        DownAnimadoresSC = new javax.swing.JButton();
+        DownActoresSC = new javax.swing.JButton();
+        DownGuionistasPTSC = new javax.swing.JButton();
+        DownEnsambladoresSC = new javax.swing.JButton();
+        DownGuionistasSC = new javax.swing.JButton();
+        UpGuionistasSC = new javax.swing.JButton();
+        UpDesignersSC = new javax.swing.JButton();
+        UpAnimadoresSC = new javax.swing.JButton();
+        UpActoresSC = new javax.swing.JButton();
+        UpEnsambladoresDC = new javax.swing.JButton();
+        UpEnsambladoresSC = new javax.swing.JButton();
+        UpGuionistasPTSC = new javax.swing.JButton();
+        UpAnmiadoresDC = new javax.swing.JButton();
+        UpDesignersDC = new javax.swing.JButton();
+        UpGuionistasDC = new javax.swing.JButton();
+        UpActoresDC = new javax.swing.JButton();
+        UpGuionistasPTDC = new javax.swing.JButton();
+        DownEnsambladoresDC = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -168,21 +168,21 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(CambioValores, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 80, -1, -1));
 
-        jButton2.setText("Iniciar simulacion");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        InicioSimulacion.setText("Iniciar simulacion");
+        InicioSimulacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                InicioSimulacionActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 50, 140, -1));
+        getContentPane().add(InicioSimulacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 50, 140, -1));
 
-        jLabel2.setText("ESTUDIOS DE ANIMACION EN VENEZUELA");
-        jLabel2.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+        Titulo.setText("ESTUDIOS DE ANIMACION EN VENEZUELA");
+        Titulo.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
             public void propertyChange(java.beans.PropertyChangeEvent evt) {
-                jLabel2PropertyChange(evt);
+                TituloPropertyChange(evt);
             }
         });
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, -1, 50));
+        getContentPane().add(Titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, -1, 50));
 
         jLabel4.setText("DIRECTOR");
         jLabel4.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -280,95 +280,95 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 170, -1, 20));
 
-        velmaIntro.setEditable(false);
-        velmaIntro.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro.addActionListener(new java.awt.event.ActionListener() {
+        EnsambladoresDC.setEditable(false);
+        EnsambladoresDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        EnsambladoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroActionPerformed(evt);
+                EnsambladoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 300, 40, -1));
+        getContentPane().add(EnsambladoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 300, 40, -1));
 
-        velmaIntro1.setEditable(false);
-        velmaIntro1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro1.addActionListener(new java.awt.event.ActionListener() {
+        GuionistasDC.setEditable(false);
+        GuionistasDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        GuionistasDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro1ActionPerformed(evt);
+                GuionistasDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 40, -1));
+        getContentPane().add(GuionistasDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 40, -1));
 
-        velmaIntro2.setEditable(false);
-        velmaIntro2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro2.addActionListener(new java.awt.event.ActionListener() {
+        DesignersDC.setEditable(false);
+        DesignersDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        DesignersDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro2ActionPerformed(evt);
+                DesignersDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 40, -1));
+        getContentPane().add(DesignersDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 40, -1));
 
-        velmaIntro3.setEditable(false);
-        velmaIntro3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro3.addActionListener(new java.awt.event.ActionListener() {
+        AnimadoresDC.setEditable(false);
+        AnimadoresDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        AnimadoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro3ActionPerformed(evt);
+                AnimadoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, 40, -1));
+        getContentPane().add(AnimadoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, 40, -1));
 
-        velmaIntro4.setEditable(false);
-        velmaIntro4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro4.addActionListener(new java.awt.event.ActionListener() {
+        ActoresDC.setEditable(false);
+        ActoresDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ActoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro4ActionPerformed(evt);
+                ActoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, 40, -1));
+        getContentPane().add(ActoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, 40, -1));
 
-        velmaIntro5.setEditable(false);
-        velmaIntro5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro5.addActionListener(new java.awt.event.ActionListener() {
+        EnsambladoresSC.setEditable(false);
+        EnsambladoresSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        EnsambladoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro5ActionPerformed(evt);
+                EnsambladoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro5, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 300, 40, -1));
+        getContentPane().add(EnsambladoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 300, 40, -1));
 
-        velmaIntro6.setEditable(false);
-        velmaIntro6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro6.addActionListener(new java.awt.event.ActionListener() {
+        GuionistasSC.setEditable(false);
+        GuionistasSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        GuionistasSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro6ActionPerformed(evt);
+                GuionistasSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro6, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 170, 40, -1));
+        getContentPane().add(GuionistasSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 170, 40, -1));
 
-        velmaIntro7.setEditable(false);
-        velmaIntro7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro7.addActionListener(new java.awt.event.ActionListener() {
+        DesignersSC.setEditable(false);
+        DesignersSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        DesignersSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro7ActionPerformed(evt);
+                DesignersSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro7, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 190, 40, -1));
+        getContentPane().add(DesignersSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 190, 40, -1));
 
-        velmaIntro8.setEditable(false);
-        velmaIntro8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro8.addActionListener(new java.awt.event.ActionListener() {
+        AnimadoresSC.setEditable(false);
+        AnimadoresSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        AnimadoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro8ActionPerformed(evt);
+                AnimadoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro8, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 210, 40, -1));
+        getContentPane().add(AnimadoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 210, 40, -1));
 
-        velmaIntro9.setEditable(false);
-        velmaIntro9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro9.addActionListener(new java.awt.event.ActionListener() {
+        ActoresSC.setEditable(false);
+        ActoresSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ActoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro9ActionPerformed(evt);
+                ActoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro9, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 230, 40, -1));
+        getContentPane().add(ActoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 230, 40, -1));
 
         jLabel15.setText("MAX");
         jLabel15.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -418,95 +418,95 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 390, -1, 20));
 
-        velmaIntro15.setEditable(false);
-        velmaIntro15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro15.addActionListener(new java.awt.event.ActionListener() {
+        PlotTwistActivosDC.setEditable(false);
+        PlotTwistActivosDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        PlotTwistActivosDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro15ActionPerformed(evt);
+                PlotTwistActivosDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro15, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 470, 40, -1));
+        getContentPane().add(PlotTwistActivosDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 470, 40, -1));
 
-        velmaIntro16.setEditable(false);
-        velmaIntro16.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro16.addActionListener(new java.awt.event.ActionListener() {
+        GuionesActivosDC.setEditable(false);
+        GuionesActivosDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        GuionesActivosDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro16ActionPerformed(evt);
+                GuionesActivosDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro16, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, 40, -1));
+        getContentPane().add(GuionesActivosDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, 40, -1));
 
-        velmaIntro17.setEditable(false);
-        velmaIntro17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro17.addActionListener(new java.awt.event.ActionListener() {
+        EscenariosActivosDC.setEditable(false);
+        EscenariosActivosDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        EscenariosActivosDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro17ActionPerformed(evt);
+                EscenariosActivosDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro17, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 410, 40, -1));
+        getContentPane().add(EscenariosActivosDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 410, 40, -1));
 
-        velmaIntro18.setEditable(false);
-        velmaIntro18.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro18.addActionListener(new java.awt.event.ActionListener() {
+        AnimacionesActivasDC.setEditable(false);
+        AnimacionesActivasDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        AnimacionesActivasDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro18ActionPerformed(evt);
+                AnimacionesActivasDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 430, 40, -1));
+        getContentPane().add(AnimacionesActivasDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 430, 40, -1));
 
-        velmaIntro19.setEditable(false);
-        velmaIntro19.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro19.addActionListener(new java.awt.event.ActionListener() {
+        DoblajesActivosDC.setEditable(false);
+        DoblajesActivosDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        DoblajesActivosDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro19ActionPerformed(evt);
+                DoblajesActivosDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro19, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, 40, -1));
+        getContentPane().add(DoblajesActivosDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, 40, -1));
 
-        velmaIntro20.setEditable(false);
-        velmaIntro20.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro20.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadPlotTwistDC.setEditable(false);
+        CapacidadPlotTwistDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadPlotTwistDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro20ActionPerformed(evt);
+                CapacidadPlotTwistDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro20, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 470, 40, -1));
+        getContentPane().add(CapacidadPlotTwistDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 470, 40, -1));
 
-        velmaIntro21.setEditable(false);
-        velmaIntro21.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro21.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadGuionesDC.setEditable(false);
+        CapacidadGuionesDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadGuionesDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro21ActionPerformed(evt);
+                CapacidadGuionesDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro21, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, 40, -1));
+        getContentPane().add(CapacidadGuionesDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, 40, -1));
 
-        velmaIntro22.setEditable(false);
-        velmaIntro22.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro22.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadEscenariosDC.setEditable(false);
+        CapacidadEscenariosDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadEscenariosDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro22ActionPerformed(evt);
+                CapacidadEscenariosDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro22, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 410, 40, -1));
+        getContentPane().add(CapacidadEscenariosDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 410, 40, -1));
 
-        velmaIntro23.setEditable(false);
-        velmaIntro23.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro23.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadAnimacionesDC.setEditable(false);
+        CapacidadAnimacionesDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadAnimacionesDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro23ActionPerformed(evt);
+                CapacidadAnimacionesDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro23, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 430, 40, -1));
+        getContentPane().add(CapacidadAnimacionesDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 430, 40, -1));
 
-        velmaIntro24.setEditable(false);
-        velmaIntro24.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro24.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadDoblajesDC.setEditable(false);
+        CapacidadDoblajesDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadDoblajesDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro24ActionPerformed(evt);
+                CapacidadDoblajesDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro24, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 450, 40, -1));
+        getContentPane().add(CapacidadDoblajesDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 450, 40, -1));
 
         jLabel26.setText("ESCENARIOS");
         jLabel26.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -548,95 +548,95 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 390, -1, 20));
 
-        velmaIntro25.setEditable(false);
-        velmaIntro25.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro25.addActionListener(new java.awt.event.ActionListener() {
+        PlotTwistActivosSC.setEditable(false);
+        PlotTwistActivosSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        PlotTwistActivosSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro25ActionPerformed(evt);
+                PlotTwistActivosSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro25, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 470, 40, -1));
+        getContentPane().add(PlotTwistActivosSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 470, 40, -1));
 
-        velmaIntro26.setEditable(false);
-        velmaIntro26.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro26.addActionListener(new java.awt.event.ActionListener() {
+        GuionesActivosSC.setEditable(false);
+        GuionesActivosSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        GuionesActivosSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro26ActionPerformed(evt);
+                GuionesActivosSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro26, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 390, 40, -1));
+        getContentPane().add(GuionesActivosSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 390, 40, -1));
 
-        velmaIntro27.setEditable(false);
-        velmaIntro27.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro27.addActionListener(new java.awt.event.ActionListener() {
+        EscenariosActivosSC.setEditable(false);
+        EscenariosActivosSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        EscenariosActivosSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro27ActionPerformed(evt);
+                EscenariosActivosSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro27, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 410, 40, -1));
+        getContentPane().add(EscenariosActivosSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 410, 40, -1));
 
-        velmaIntro28.setEditable(false);
-        velmaIntro28.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro28.addActionListener(new java.awt.event.ActionListener() {
+        AnimacionesActivasSC.setEditable(false);
+        AnimacionesActivasSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        AnimacionesActivasSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro28ActionPerformed(evt);
+                AnimacionesActivasSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro28, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 430, 40, -1));
+        getContentPane().add(AnimacionesActivasSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 430, 40, -1));
 
-        velmaIntro29.setEditable(false);
-        velmaIntro29.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro29.addActionListener(new java.awt.event.ActionListener() {
+        DoblajesActivosSC.setEditable(false);
+        DoblajesActivosSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        DoblajesActivosSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro29ActionPerformed(evt);
+                DoblajesActivosSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro29, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 450, 40, -1));
+        getContentPane().add(DoblajesActivosSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 450, 40, -1));
 
-        velmaIntro30.setEditable(false);
-        velmaIntro30.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro30.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadPlotTwistSC.setEditable(false);
+        CapacidadPlotTwistSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadPlotTwistSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro30ActionPerformed(evt);
+                CapacidadPlotTwistSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro30, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 470, 40, -1));
+        getContentPane().add(CapacidadPlotTwistSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 470, 40, -1));
 
-        velmaIntro31.setEditable(false);
-        velmaIntro31.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro31.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadGuionesSC.setEditable(false);
+        CapacidadGuionesSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadGuionesSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro31ActionPerformed(evt);
+                CapacidadGuionesSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro31, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 390, 40, -1));
+        getContentPane().add(CapacidadGuionesSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 390, 40, -1));
 
-        velmaIntro32.setEditable(false);
-        velmaIntro32.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro32.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadEscenariosSC.setEditable(false);
+        CapacidadEscenariosSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadEscenariosSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro32ActionPerformed(evt);
+                CapacidadEscenariosSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro32, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 410, 40, -1));
+        getContentPane().add(CapacidadEscenariosSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 410, 40, -1));
 
-        velmaIntro33.setEditable(false);
-        velmaIntro33.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro33.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadAnimacionesSC.setEditable(false);
+        CapacidadAnimacionesSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadAnimacionesSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro33ActionPerformed(evt);
+                CapacidadAnimacionesSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro33, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 430, 40, -1));
+        getContentPane().add(CapacidadAnimacionesSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 430, 40, -1));
 
-        velmaIntro34.setEditable(false);
-        velmaIntro34.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro34.addActionListener(new java.awt.event.ActionListener() {
+        CapacidadDoblajesSC.setEditable(false);
+        CapacidadDoblajesSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapacidadDoblajesSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro34ActionPerformed(evt);
+                CapacidadDoblajesSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro34, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 450, 40, -1));
+        getContentPane().add(CapacidadDoblajesSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 450, 40, -1));
 
         jLabel16.setText("ENSAMBLADORES");
         jLabel16.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -662,14 +662,14 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, -1, 30));
 
-        velmaIntro10.setEditable(false);
-        velmaIntro10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro10.addActionListener(new java.awt.event.ActionListener() {
+        GuionistasPTSC.setEditable(false);
+        GuionistasPTSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        GuionistasPTSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro10ActionPerformed(evt);
+                GuionistasPTSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro10, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, 40, -1));
+        getContentPane().add(GuionistasPTSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, 40, -1));
 
         velmaIntro11.setEditable(false);
         velmaIntro11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -680,14 +680,14 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(velmaIntro11, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, 40, -1));
 
-        velmaIntro12.setEditable(false);
-        velmaIntro12.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro12.addActionListener(new java.awt.event.ActionListener() {
+        GuionistasPTDC.setEditable(false);
+        GuionistasPTDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        GuionistasPTDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro12ActionPerformed(evt);
+                GuionistasPTDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro12, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 250, 40, -1));
+        getContentPane().add(GuionistasPTDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 250, 40, -1));
 
         jLabel19.setText("ENSAMBLADORES");
         jLabel19.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -730,23 +730,23 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 550, -1, 20));
 
-        velmaIntro35.setEditable(false);
-        velmaIntro35.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro35.addActionListener(new java.awt.event.ActionListener() {
+        CapitulosTerminadosDC.setEditable(false);
+        CapitulosTerminadosDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapitulosTerminadosDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro35ActionPerformed(evt);
+                CapitulosTerminadosDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro35, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 550, 40, -1));
+        getContentPane().add(CapitulosTerminadosDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 550, 40, -1));
 
-        velmaIntro36.setEditable(false);
-        velmaIntro36.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro36.addActionListener(new java.awt.event.ActionListener() {
+        CapitulosTerminadosPTDC.setEditable(false);
+        CapitulosTerminadosPTDC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapitulosTerminadosPTDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro36ActionPerformed(evt);
+                CapitulosTerminadosPTDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro36, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 570, 40, -1));
+        getContentPane().add(CapitulosTerminadosPTDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 570, 40, -1));
 
         jLabel33.setText("PLOT TWIST");
         jLabel33.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -764,23 +764,23 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 550, -1, 20));
 
-        velmaIntro37.setEditable(false);
-        velmaIntro37.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro37.addActionListener(new java.awt.event.ActionListener() {
+        CapitulosTerminadosSC.setEditable(false);
+        CapitulosTerminadosSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapitulosTerminadosSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro37ActionPerformed(evt);
+                CapitulosTerminadosSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro37, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 550, 40, -1));
+        getContentPane().add(CapitulosTerminadosSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 550, 40, -1));
 
-        velmaIntro38.setEditable(false);
-        velmaIntro38.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro38.addActionListener(new java.awt.event.ActionListener() {
+        CapitulosTerminadosPTSC.setEditable(false);
+        CapitulosTerminadosPTSC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        CapitulosTerminadosPTSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro38ActionPerformed(evt);
+                CapitulosTerminadosPTSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro38, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 570, 40, -1));
+        getContentPane().add(CapitulosTerminadosPTSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 570, 40, -1));
 
         jLabel35.setText("FALTAS");
         jLabel35.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -798,23 +798,23 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 650, -1, 20));
 
-        velmaIntro39.setEditable(false);
-        velmaIntro39.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro39.addActionListener(new java.awt.event.ActionListener() {
+        ActividadPM.setEditable(false);
+        ActividadPM.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ActividadPM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro39ActionPerformed(evt);
+                ActividadPMActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro39, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 650, 70, -1));
+        getContentPane().add(ActividadPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 650, 70, -1));
 
-        velmaIntro40.setEditable(false);
-        velmaIntro40.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro40.addActionListener(new java.awt.event.ActionListener() {
+        FaltasPM.setEditable(false);
+        FaltasPM.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        FaltasPM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro40ActionPerformed(evt);
+                FaltasPMActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro40, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 670, 70, -1));
+        getContentPane().add(FaltasPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 670, 70, -1));
 
         jLabel38.setText("ACTIVIDAD");
         jLabel38.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -824,14 +824,14 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 650, -1, 20));
 
-        velmaIntro41.setEditable(false);
-        velmaIntro41.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro41.addActionListener(new java.awt.event.ActionListener() {
+        ActividadDirector.setEditable(false);
+        ActividadDirector.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ActividadDirector.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro41ActionPerformed(evt);
+                ActividadDirectorActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro41, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 650, 80, -1));
+        getContentPane().add(ActividadDirector, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 650, 80, -1));
 
         jLabel39.setText("ELEMENTOS DE CAPITULOS");
         jLabel39.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -865,215 +865,215 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 690, -1, 20));
 
-        velmaIntro43.setEditable(false);
-        velmaIntro43.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro43.addActionListener(new java.awt.event.ActionListener() {
+        DescuentoPM.setEditable(false);
+        DescuentoPM.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        DescuentoPM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro43ActionPerformed(evt);
+                DescuentoPMActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro43, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 690, 70, -1));
+        getContentPane().add(DescuentoPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 690, 70, -1));
 
-        velmaIntro44.setEditable(false);
-        velmaIntro44.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        velmaIntro44.addActionListener(new java.awt.event.ActionListener() {
+        SalarioPM.setEditable(false);
+        SalarioPM.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        SalarioPM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntro44ActionPerformed(evt);
+                SalarioPMActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntro44, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 710, 70, -1));
+        getContentPane().add(SalarioPM, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 710, 70, -1));
 
-        velmaIntroDown.setText("-");
-        velmaIntroDown.addActionListener(new java.awt.event.ActionListener() {
+        DownAnimadoresDC.setText("-");
+        DownAnimadoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDownActionPerformed(evt);
+                DownAnimadoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 190, -1, -1));
+        getContentPane().add(DownAnimadoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, -1, -1));
 
-        velmaIntroDown1.setText("-");
-        velmaIntroDown1.addActionListener(new java.awt.event.ActionListener() {
+        DownActoresDC.setText("-");
+        DownActoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown1ActionPerformed(evt);
+                DownActoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, -1, -1));
+        getContentPane().add(DownActoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, -1, -1));
 
-        velmaIntroDown2.setText("-");
-        velmaIntroDown2.addActionListener(new java.awt.event.ActionListener() {
+        DownGuionistasPTDC.setText("-");
+        DownGuionistasPTDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown2ActionPerformed(evt);
+                DownGuionistasPTDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, -1, -1));
+        getContentPane().add(DownGuionistasPTDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, -1, -1));
 
-        velmaIntroDown3.setText("-");
-        velmaIntroDown3.addActionListener(new java.awt.event.ActionListener() {
+        DownDesignersDC.setText("-");
+        DownDesignersDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown3ActionPerformed(evt);
+                DownDesignersDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, -1, -1));
+        getContentPane().add(DownDesignersDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 190, -1, -1));
 
-        velmaIntroDown4.setText("-");
-        velmaIntroDown4.addActionListener(new java.awt.event.ActionListener() {
+        DownGuionistasDC.setText("-");
+        DownGuionistasDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown4ActionPerformed(evt);
+                DownGuionistasDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 300, -1, -1));
+        getContentPane().add(DownGuionistasDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, -1, -1));
 
-        velmaIntroDown5.setText("-");
-        velmaIntroDown5.addActionListener(new java.awt.event.ActionListener() {
+        DownDesignersSC.setText("-");
+        DownDesignersSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown5ActionPerformed(evt);
+                DownDesignersSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, -1, -1));
+        getContentPane().add(DownDesignersSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, -1, -1));
 
-        velmaIntroDown6.setText("-");
-        velmaIntroDown6.addActionListener(new java.awt.event.ActionListener() {
+        DownAnimadoresSC.setText("-");
+        DownAnimadoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown6ActionPerformed(evt);
+                DownAnimadoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown6, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, -1, -1));
+        getContentPane().add(DownAnimadoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 210, -1, -1));
 
-        velmaIntroDown7.setText("-");
-        velmaIntroDown7.addActionListener(new java.awt.event.ActionListener() {
+        DownActoresSC.setText("-");
+        DownActoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown7ActionPerformed(evt);
+                DownActoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown7, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 210, -1, -1));
+        getContentPane().add(DownActoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, -1, -1));
 
-        velmaIntroDown8.setText("-");
-        velmaIntroDown8.addActionListener(new java.awt.event.ActionListener() {
+        DownGuionistasPTSC.setText("-");
+        DownGuionistasPTSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown8ActionPerformed(evt);
+                DownGuionistasPTSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown8, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, -1, -1));
+        getContentPane().add(DownGuionistasPTSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 250, -1, -1));
 
-        velmaIntroDown9.setText("-");
-        velmaIntroDown9.addActionListener(new java.awt.event.ActionListener() {
+        DownEnsambladoresSC.setText("-");
+        DownEnsambladoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown9ActionPerformed(evt);
+                DownEnsambladoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown9, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 250, -1, -1));
+        getContentPane().add(DownEnsambladoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 300, -1, -1));
 
-        velmaIntroDown10.setText("-");
-        velmaIntroDown10.addActionListener(new java.awt.event.ActionListener() {
+        DownGuionistasSC.setText("-");
+        DownGuionistasSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown10ActionPerformed(evt);
+                DownGuionistasSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown10, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 300, -1, -1));
+        getContentPane().add(DownGuionistasSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 170, -1, -1));
 
-        velmaIntroDown11.setText("-");
-        velmaIntroDown11.addActionListener(new java.awt.event.ActionListener() {
+        UpGuionistasSC.setText("+");
+        UpGuionistasSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaIntroDown11ActionPerformed(evt);
+                UpGuionistasSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaIntroDown11, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 170, -1, -1));
+        getContentPane().add(UpGuionistasSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 170, -1, -1));
 
-        velmaCierreUp.setText("+");
-        velmaCierreUp.addActionListener(new java.awt.event.ActionListener() {
+        UpDesignersSC.setText("+");
+        UpDesignersSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUpActionPerformed(evt);
+                UpDesignersSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 170, -1, -1));
+        getContentPane().add(UpDesignersSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 190, -1, -1));
 
-        velmaCierreUp1.setText("+");
-        velmaCierreUp1.addActionListener(new java.awt.event.ActionListener() {
+        UpAnimadoresSC.setText("+");
+        UpAnimadoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp1ActionPerformed(evt);
+                UpAnimadoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, -1, -1));
+        getContentPane().add(UpAnimadoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 210, -1, -1));
 
-        velmaCierreUp2.setText("+");
-        velmaCierreUp2.addActionListener(new java.awt.event.ActionListener() {
+        UpActoresSC.setText("+");
+        UpActoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp2ActionPerformed(evt);
+                UpActoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, -1, -1));
+        getContentPane().add(UpActoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 230, -1, -1));
 
-        velmaCierreUp3.setText("+");
-        velmaCierreUp3.addActionListener(new java.awt.event.ActionListener() {
+        UpEnsambladoresDC.setText("+");
+        UpEnsambladoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp3ActionPerformed(evt);
+                UpEnsambladoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 230, -1, -1));
+        getContentPane().add(UpEnsambladoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 300, -1, -1));
 
-        velmaCierreUp4.setText("+");
-        velmaCierreUp4.addActionListener(new java.awt.event.ActionListener() {
+        UpEnsambladoresSC.setText("+");
+        UpEnsambladoresSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp4ActionPerformed(evt);
+                UpEnsambladoresSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, -1, -1));
+        getContentPane().add(UpEnsambladoresSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 300, -1, -1));
 
-        velmaCierreUp5.setText("+");
-        velmaCierreUp5.addActionListener(new java.awt.event.ActionListener() {
+        UpGuionistasPTSC.setText("+");
+        UpGuionistasPTSC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp5ActionPerformed(evt);
+                UpGuionistasPTSCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 300, -1, -1));
+        getContentPane().add(UpGuionistasPTSC, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 250, -1, -1));
 
-        velmaCierreUp6.setText("+");
-        velmaCierreUp6.addActionListener(new java.awt.event.ActionListener() {
+        UpAnmiadoresDC.setText("+");
+        UpAnmiadoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp6ActionPerformed(evt);
+                UpAnmiadoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp6, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 170, -1, -1));
+        getContentPane().add(UpAnmiadoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, -1, -1));
 
-        velmaCierreUp7.setText("+");
-        velmaCierreUp7.addActionListener(new java.awt.event.ActionListener() {
+        UpDesignersDC.setText("+");
+        UpDesignersDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp7ActionPerformed(evt);
+                UpDesignersDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp7, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 190, -1, -1));
+        getContentPane().add(UpDesignersDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, -1, -1));
 
-        velmaCierreUp8.setText("+");
-        velmaCierreUp8.addActionListener(new java.awt.event.ActionListener() {
+        UpGuionistasDC.setText("+");
+        UpGuionistasDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp8ActionPerformed(evt);
+                UpGuionistasDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp8, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 210, -1, -1));
+        getContentPane().add(UpGuionistasDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 170, -1, -1));
 
-        velmaCierreUp9.setText("+");
-        velmaCierreUp9.addActionListener(new java.awt.event.ActionListener() {
+        UpActoresDC.setText("+");
+        UpActoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp9ActionPerformed(evt);
+                UpActoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp9, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 230, -1, -1));
+        getContentPane().add(UpActoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 230, -1, -1));
 
-        velmaCierreUp10.setText("+");
-        velmaCierreUp10.addActionListener(new java.awt.event.ActionListener() {
+        UpGuionistasPTDC.setText("+");
+        UpGuionistasPTDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp10ActionPerformed(evt);
+                UpGuionistasPTDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp10, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 250, -1, -1));
+        getContentPane().add(UpGuionistasPTDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, -1, -1));
 
-        velmaCierreUp11.setText("+");
-        velmaCierreUp11.addActionListener(new java.awt.event.ActionListener() {
+        DownEnsambladoresDC.setText("-");
+        DownEnsambladoresDC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                velmaCierreUp11ActionPerformed(evt);
+                DownEnsambladoresDCActionPerformed(evt);
             }
         });
-        getContentPane().add(velmaCierreUp11, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 300, -1, -1));
+        getContentPane().add(DownEnsambladoresDC, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 300, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1111,13 +1111,13 @@ public class Interfaz extends javax.swing.JFrame {
         
     }//GEN-LAST:event_CambioValoresActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void InicioSimulacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InicioSimulacionActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_InicioSimulacionActionPerformed
 
-    private void jLabel2PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel2PropertyChange
+    private void TituloPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_TituloPropertyChange
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel2PropertyChange
+    }//GEN-LAST:event_TituloPropertyChange
 
     private void jLabel4PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel4PropertyChange
         // TODO add your handling code here:
@@ -1167,45 +1167,45 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel14PropertyChange
 
-    private void velmaIntroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroActionPerformed
+    private void EnsambladoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnsambladoresDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroActionPerformed
+    }//GEN-LAST:event_EnsambladoresDCActionPerformed
 
-    private void velmaIntro1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro1ActionPerformed
+    private void GuionistasDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GuionistasDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro1ActionPerformed
+    }//GEN-LAST:event_GuionistasDCActionPerformed
 
-    private void velmaIntro2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro2ActionPerformed
+    private void DesignersDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DesignersDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro2ActionPerformed
+    }//GEN-LAST:event_DesignersDCActionPerformed
 
-    private void velmaIntro3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro3ActionPerformed
+    private void AnimadoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AnimadoresDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro3ActionPerformed
+    }//GEN-LAST:event_AnimadoresDCActionPerformed
 
-    private void velmaIntro4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro4ActionPerformed
+    private void ActoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ActoresDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro4ActionPerformed
+    }//GEN-LAST:event_ActoresDCActionPerformed
 
-    private void velmaIntro5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro5ActionPerformed
+    private void EnsambladoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnsambladoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro5ActionPerformed
+    }//GEN-LAST:event_EnsambladoresSCActionPerformed
 
-    private void velmaIntro6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro6ActionPerformed
+    private void GuionistasSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GuionistasSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro6ActionPerformed
+    }//GEN-LAST:event_GuionistasSCActionPerformed
 
-    private void velmaIntro7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro7ActionPerformed
+    private void DesignersSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DesignersSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro7ActionPerformed
+    }//GEN-LAST:event_DesignersSCActionPerformed
 
-    private void velmaIntro8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro8ActionPerformed
+    private void AnimadoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AnimadoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro8ActionPerformed
+    }//GEN-LAST:event_AnimadoresSCActionPerformed
 
-    private void velmaIntro9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro9ActionPerformed
+    private void ActoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ActoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro9ActionPerformed
+    }//GEN-LAST:event_ActoresSCActionPerformed
 
     private void jLabel15PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel15PropertyChange
         // TODO add your handling code here:
@@ -1231,45 +1231,45 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel25PropertyChange
 
-    private void velmaIntro15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro15ActionPerformed
+    private void PlotTwistActivosDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlotTwistActivosDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro15ActionPerformed
+    }//GEN-LAST:event_PlotTwistActivosDCActionPerformed
 
-    private void velmaIntro16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro16ActionPerformed
+    private void GuionesActivosDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GuionesActivosDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro16ActionPerformed
+    }//GEN-LAST:event_GuionesActivosDCActionPerformed
 
-    private void velmaIntro17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro17ActionPerformed
+    private void EscenariosActivosDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EscenariosActivosDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro17ActionPerformed
+    }//GEN-LAST:event_EscenariosActivosDCActionPerformed
 
-    private void velmaIntro18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro18ActionPerformed
+    private void AnimacionesActivasDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AnimacionesActivasDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro18ActionPerformed
+    }//GEN-LAST:event_AnimacionesActivasDCActionPerformed
 
-    private void velmaIntro19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro19ActionPerformed
+    private void DoblajesActivosDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DoblajesActivosDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro19ActionPerformed
+    }//GEN-LAST:event_DoblajesActivosDCActionPerformed
 
-    private void velmaIntro20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro20ActionPerformed
+    private void CapacidadPlotTwistDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadPlotTwistDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro20ActionPerformed
+    }//GEN-LAST:event_CapacidadPlotTwistDCActionPerformed
 
-    private void velmaIntro21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro21ActionPerformed
+    private void CapacidadGuionesDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadGuionesDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro21ActionPerformed
+    }//GEN-LAST:event_CapacidadGuionesDCActionPerformed
 
-    private void velmaIntro22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro22ActionPerformed
+    private void CapacidadEscenariosDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadEscenariosDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro22ActionPerformed
+    }//GEN-LAST:event_CapacidadEscenariosDCActionPerformed
 
-    private void velmaIntro23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro23ActionPerformed
+    private void CapacidadAnimacionesDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadAnimacionesDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro23ActionPerformed
+    }//GEN-LAST:event_CapacidadAnimacionesDCActionPerformed
 
-    private void velmaIntro24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro24ActionPerformed
+    private void CapacidadDoblajesDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadDoblajesDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro24ActionPerformed
+    }//GEN-LAST:event_CapacidadDoblajesDCActionPerformed
 
     private void jLabel26PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel26PropertyChange
         // TODO add your handling code here:
@@ -1291,45 +1291,45 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel30PropertyChange
 
-    private void velmaIntro25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro25ActionPerformed
+    private void PlotTwistActivosSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlotTwistActivosSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro25ActionPerformed
+    }//GEN-LAST:event_PlotTwistActivosSCActionPerformed
 
-    private void velmaIntro26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro26ActionPerformed
+    private void GuionesActivosSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GuionesActivosSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro26ActionPerformed
+    }//GEN-LAST:event_GuionesActivosSCActionPerformed
 
-    private void velmaIntro27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro27ActionPerformed
+    private void EscenariosActivosSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EscenariosActivosSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro27ActionPerformed
+    }//GEN-LAST:event_EscenariosActivosSCActionPerformed
 
-    private void velmaIntro28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro28ActionPerformed
+    private void AnimacionesActivasSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AnimacionesActivasSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro28ActionPerformed
+    }//GEN-LAST:event_AnimacionesActivasSCActionPerformed
 
-    private void velmaIntro29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro29ActionPerformed
+    private void DoblajesActivosSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DoblajesActivosSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro29ActionPerformed
+    }//GEN-LAST:event_DoblajesActivosSCActionPerformed
 
-    private void velmaIntro30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro30ActionPerformed
+    private void CapacidadPlotTwistSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadPlotTwistSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro30ActionPerformed
+    }//GEN-LAST:event_CapacidadPlotTwistSCActionPerformed
 
-    private void velmaIntro31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro31ActionPerformed
+    private void CapacidadGuionesSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadGuionesSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro31ActionPerformed
+    }//GEN-LAST:event_CapacidadGuionesSCActionPerformed
 
-    private void velmaIntro32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro32ActionPerformed
+    private void CapacidadEscenariosSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadEscenariosSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro32ActionPerformed
+    }//GEN-LAST:event_CapacidadEscenariosSCActionPerformed
 
-    private void velmaIntro33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro33ActionPerformed
+    private void CapacidadAnimacionesSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadAnimacionesSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro33ActionPerformed
+    }//GEN-LAST:event_CapacidadAnimacionesSCActionPerformed
 
-    private void velmaIntro34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro34ActionPerformed
+    private void CapacidadDoblajesSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapacidadDoblajesSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro34ActionPerformed
+    }//GEN-LAST:event_CapacidadDoblajesSCActionPerformed
 
     private void jLabel16PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel16PropertyChange
         // TODO add your handling code here:
@@ -1343,17 +1343,17 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel18PropertyChange
 
-    private void velmaIntro10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro10ActionPerformed
+    private void GuionistasPTSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GuionistasPTSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro10ActionPerformed
+    }//GEN-LAST:event_GuionistasPTSCActionPerformed
 
     private void velmaIntro11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_velmaIntro11ActionPerformed
 
-    private void velmaIntro12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro12ActionPerformed
+    private void GuionistasPTDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_GuionistasPTDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro12ActionPerformed
+    }//GEN-LAST:event_GuionistasPTDCActionPerformed
 
     private void jLabel19PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel19PropertyChange
         // TODO add your handling code here:
@@ -1375,13 +1375,13 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel32PropertyChange
 
-    private void velmaIntro35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro35ActionPerformed
+    private void CapitulosTerminadosDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapitulosTerminadosDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro35ActionPerformed
+    }//GEN-LAST:event_CapitulosTerminadosDCActionPerformed
 
-    private void velmaIntro36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro36ActionPerformed
+    private void CapitulosTerminadosPTDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapitulosTerminadosPTDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro36ActionPerformed
+    }//GEN-LAST:event_CapitulosTerminadosPTDCActionPerformed
 
     private void jLabel33PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel33PropertyChange
         // TODO add your handling code here:
@@ -1391,13 +1391,13 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel34PropertyChange
 
-    private void velmaIntro37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro37ActionPerformed
+    private void CapitulosTerminadosSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapitulosTerminadosSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro37ActionPerformed
+    }//GEN-LAST:event_CapitulosTerminadosSCActionPerformed
 
-    private void velmaIntro38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro38ActionPerformed
+    private void CapitulosTerminadosPTSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CapitulosTerminadosPTSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro38ActionPerformed
+    }//GEN-LAST:event_CapitulosTerminadosPTSCActionPerformed
 
     private void jLabel35PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel35PropertyChange
         // TODO add your handling code here:
@@ -1407,21 +1407,21 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel36PropertyChange
 
-    private void velmaIntro39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro39ActionPerformed
+    private void ActividadPMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ActividadPMActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro39ActionPerformed
+    }//GEN-LAST:event_ActividadPMActionPerformed
 
-    private void velmaIntro40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro40ActionPerformed
+    private void FaltasPMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FaltasPMActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro40ActionPerformed
+    }//GEN-LAST:event_FaltasPMActionPerformed
 
     private void jLabel38PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel38PropertyChange
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel38PropertyChange
 
-    private void velmaIntro41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro41ActionPerformed
+    private void ActividadDirectorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ActividadDirectorActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro41ActionPerformed
+    }//GEN-LAST:event_ActividadDirectorActionPerformed
 
     private void jLabel39PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel39PropertyChange
         // TODO add your handling code here:
@@ -1439,164 +1439,109 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel42PropertyChange
 
-    private void velmaIntro43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro43ActionPerformed
+    private void DescuentoPMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DescuentoPMActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro43ActionPerformed
+    }//GEN-LAST:event_DescuentoPMActionPerformed
 
-    private void velmaIntro44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntro44ActionPerformed
+    private void SalarioPMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SalarioPMActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntro44ActionPerformed
+    }//GEN-LAST:event_SalarioPMActionPerformed
 
-    private void velmaIntroDownActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDownActionPerformed
-        int holderInt = Integer.parseInt(velmaIntro.getText());
-        if (holderInt == 1) {
-            JOptionPane.showMessageDialog(null, "Los productores no pueden bajar de 1 dado que despiden al Project Manager");
-        } else {
-            holderInt--;
-            velmaIntro.setText(Integer.toString(holderInt));
-            tIntro.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaIntroDownActionPerformed
-
-    private void velmaIntroDown1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown1ActionPerformed
+    private void DownAnimadoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownAnimadoresDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown1ActionPerformed
+    }//GEN-LAST:event_DownAnimadoresDCActionPerformed
 
-    private void velmaIntroDown2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown2ActionPerformed
+    private void DownActoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownActoresDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown2ActionPerformed
+    }//GEN-LAST:event_DownActoresDCActionPerformed
 
-    private void velmaIntroDown3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown3ActionPerformed
+    private void DownGuionistasPTDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownGuionistasPTDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown3ActionPerformed
+    }//GEN-LAST:event_DownGuionistasPTDCActionPerformed
 
-    private void velmaIntroDown4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown4ActionPerformed
+    private void DownDesignersDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownDesignersDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown4ActionPerformed
+    }//GEN-LAST:event_DownDesignersDCActionPerformed
 
-    private void velmaIntroDown5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown5ActionPerformed
+    private void DownGuionistasDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownGuionistasDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown5ActionPerformed
+    }//GEN-LAST:event_DownGuionistasDCActionPerformed
 
-    private void velmaIntroDown6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown6ActionPerformed
+    private void DownDesignersSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownDesignersSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown6ActionPerformed
+    }//GEN-LAST:event_DownDesignersSCActionPerformed
 
-    private void velmaIntroDown7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown7ActionPerformed
+    private void DownAnimadoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownAnimadoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown7ActionPerformed
+    }//GEN-LAST:event_DownAnimadoresSCActionPerformed
 
-    private void velmaIntroDown8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown8ActionPerformed
+    private void DownActoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownActoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown8ActionPerformed
+    }//GEN-LAST:event_DownActoresSCActionPerformed
 
-    private void velmaIntroDown9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown9ActionPerformed
+    private void DownGuionistasPTSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownGuionistasPTSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown9ActionPerformed
+    }//GEN-LAST:event_DownGuionistasPTSCActionPerformed
 
-    private void velmaIntroDown10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown10ActionPerformed
+    private void DownEnsambladoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownEnsambladoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown10ActionPerformed
+    }//GEN-LAST:event_DownEnsambladoresSCActionPerformed
 
-    private void velmaIntroDown11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaIntroDown11ActionPerformed
+    private void DownGuionistasSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownGuionistasSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaIntroDown11ActionPerformed
+    }//GEN-LAST:event_DownGuionistasSCActionPerformed
 
-    private void velmaCierreUpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUpActionPerformed
-        if (Integer.parseInt(velmaIntro.getText()) + Integer.parseInt(velmaCreditos.getText()) + Integer.parseInt(velmaInicio.getText()) + Integer.parseInt(velmaCierre.getText()) + Integer.parseInt(velmaPlottwist.getText()) + Integer.parseInt(velmaEnsambladores.getText()) == 11) {
-            JOptionPane.showMessageDialog(null, "La cantidad maxima de productores no puede ser mas de 11");
-
-        } else {
-            int holderInt = Integer.parseInt(velmaCierre.getText());
-            holderInt++;
-            velmaCierre.setText(Integer.toString(holderInt));
-            tCierre.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaCierreUpActionPerformed
-
-    private void velmaCierreUp1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp1ActionPerformed
-        if (Integer.parseInt(velmaIntro.getText()) + Integer.parseInt(velmaCreditos.getText()) + Integer.parseInt(velmaInicio.getText()) + Integer.parseInt(velmaCierre.getText()) + Integer.parseInt(velmaPlottwist.getText()) + Integer.parseInt(velmaEnsambladores.getText()) == 11) {
-            JOptionPane.showMessageDialog(null, "La cantidad maxima de productores no puede ser mas de 11");
-
-        } else {
-            int holderInt = Integer.parseInt(velmaCierre.getText());
-            holderInt++;
-            velmaCierre.setText(Integer.toString(holderInt));
-            tCierre.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaCierreUp1ActionPerformed
-
-    private void velmaCierreUp2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp2ActionPerformed
-        if (Integer.parseInt(velmaIntro.getText()) + Integer.parseInt(velmaCreditos.getText()) + Integer.parseInt(velmaInicio.getText()) + Integer.parseInt(velmaCierre.getText()) + Integer.parseInt(velmaPlottwist.getText()) + Integer.parseInt(velmaEnsambladores.getText()) == 11) {
-            JOptionPane.showMessageDialog(null, "La cantidad maxima de productores no puede ser mas de 11");
-
-        } else {
-            int holderInt = Integer.parseInt(velmaCierre.getText());
-            holderInt++;
-            velmaCierre.setText(Integer.toString(holderInt));
-            tCierre.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaCierreUp2ActionPerformed
-
-    private void velmaCierreUp3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp3ActionPerformed
-        if (Integer.parseInt(velmaIntro.getText()) + Integer.parseInt(velmaCreditos.getText()) + Integer.parseInt(velmaInicio.getText()) + Integer.parseInt(velmaCierre.getText()) + Integer.parseInt(velmaPlottwist.getText()) + Integer.parseInt(velmaEnsambladores.getText()) == 11) {
-            JOptionPane.showMessageDialog(null, "La cantidad maxima de productores no puede ser mas de 11");
-
-        } else {
-            int holderInt = Integer.parseInt(velmaCierre.getText());
-            holderInt++;
-            velmaCierre.setText(Integer.toString(holderInt));
-            tCierre.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaCierreUp3ActionPerformed
-
-    private void velmaCierreUp4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp4ActionPerformed
-        if (Integer.parseInt(velmaIntro.getText()) + Integer.parseInt(velmaCreditos.getText()) + Integer.parseInt(velmaInicio.getText()) + Integer.parseInt(velmaCierre.getText()) + Integer.parseInt(velmaPlottwist.getText()) + Integer.parseInt(velmaEnsambladores.getText()) == 11) {
-            JOptionPane.showMessageDialog(null, "La cantidad maxima de productores no puede ser mas de 11");
-
-        } else {
-            int holderInt = Integer.parseInt(velmaCierre.getText());
-            holderInt++;
-            velmaCierre.setText(Integer.toString(holderInt));
-            tCierre.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaCierreUp4ActionPerformed
-
-    private void velmaCierreUp5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp5ActionPerformed
-        if (Integer.parseInt(velmaIntro.getText()) + Integer.parseInt(velmaCreditos.getText()) + Integer.parseInt(velmaInicio.getText()) + Integer.parseInt(velmaCierre.getText()) + Integer.parseInt(velmaPlottwist.getText()) + Integer.parseInt(velmaEnsambladores.getText()) == 11) {
-            JOptionPane.showMessageDialog(null, "La cantidad maxima de productores no puede ser mas de 11");
-
-        } else {
-            int holderInt = Integer.parseInt(velmaCierre.getText());
-            holderInt++;
-            velmaCierre.setText(Integer.toString(holderInt));
-            tCierre.setNumeroDeProductores(holderInt);
-        }
-    }//GEN-LAST:event_velmaCierreUp5ActionPerformed
-
-    private void velmaCierreUp6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp6ActionPerformed
+    private void UpGuionistasSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpGuionistasSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaCierreUp6ActionPerformed
+    }//GEN-LAST:event_UpGuionistasSCActionPerformed
 
-    private void velmaCierreUp7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp7ActionPerformed
+    private void UpDesignersSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpDesignersSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaCierreUp7ActionPerformed
+    }//GEN-LAST:event_UpDesignersSCActionPerformed
 
-    private void velmaCierreUp8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp8ActionPerformed
+    private void UpAnimadoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpAnimadoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaCierreUp8ActionPerformed
+    }//GEN-LAST:event_UpAnimadoresSCActionPerformed
 
-    private void velmaCierreUp9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp9ActionPerformed
+    private void UpActoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpActoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaCierreUp9ActionPerformed
+    }//GEN-LAST:event_UpActoresSCActionPerformed
 
-    private void velmaCierreUp10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp10ActionPerformed
+    private void UpEnsambladoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpEnsambladoresDCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaCierreUp10ActionPerformed
+    }//GEN-LAST:event_UpEnsambladoresDCActionPerformed
 
-    private void velmaCierreUp11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_velmaCierreUp11ActionPerformed
+    private void UpEnsambladoresSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpEnsambladoresSCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_velmaCierreUp11ActionPerformed
+    }//GEN-LAST:event_UpEnsambladoresSCActionPerformed
+
+    private void UpGuionistasPTSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpGuionistasPTSCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UpGuionistasPTSCActionPerformed
+
+    private void UpAnmiadoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpAnmiadoresDCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UpAnmiadoresDCActionPerformed
+
+    private void UpDesignersDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpDesignersDCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UpDesignersDCActionPerformed
+
+    private void UpGuionistasDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpGuionistasDCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UpGuionistasDCActionPerformed
+
+    private void UpActoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpActoresDCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UpActoresDCActionPerformed
+
+    private void UpGuionistasPTDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpGuionistasPTDCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UpGuionistasPTDCActionPerformed
+
+    private void DownEnsambladoresDCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DownEnsambladoresDCActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_DownEnsambladoresDCActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1634,8 +1579,74 @@ public class Interfaz extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField ActividadDirector;
+    private javax.swing.JTextField ActividadPM;
+    private javax.swing.JTextField ActoresDC;
+    private javax.swing.JTextField ActoresSC;
+    private javax.swing.JTextField AnimacionesActivasDC;
+    private javax.swing.JTextField AnimacionesActivasSC;
+    private javax.swing.JTextField AnimadoresDC;
+    private javax.swing.JTextField AnimadoresSC;
     private javax.swing.JButton CambioValores;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JTextField CapacidadAnimacionesDC;
+    private javax.swing.JTextField CapacidadAnimacionesSC;
+    private javax.swing.JTextField CapacidadDoblajesDC;
+    private javax.swing.JTextField CapacidadDoblajesSC;
+    private javax.swing.JTextField CapacidadEscenariosDC;
+    private javax.swing.JTextField CapacidadEscenariosSC;
+    private javax.swing.JTextField CapacidadGuionesDC;
+    private javax.swing.JTextField CapacidadGuionesSC;
+    private javax.swing.JTextField CapacidadPlotTwistDC;
+    private javax.swing.JTextField CapacidadPlotTwistSC;
+    private javax.swing.JTextField CapitulosTerminadosDC;
+    private javax.swing.JTextField CapitulosTerminadosPTDC;
+    private javax.swing.JTextField CapitulosTerminadosPTSC;
+    private javax.swing.JTextField CapitulosTerminadosSC;
+    private javax.swing.JTextField DescuentoPM;
+    private javax.swing.JTextField DesignersDC;
+    private javax.swing.JTextField DesignersSC;
+    private javax.swing.JTextField DoblajesActivosDC;
+    private javax.swing.JTextField DoblajesActivosSC;
+    private javax.swing.JButton DownActoresDC;
+    private javax.swing.JButton DownActoresSC;
+    private javax.swing.JButton DownAnimadoresDC;
+    private javax.swing.JButton DownAnimadoresSC;
+    private javax.swing.JButton DownDesignersDC;
+    private javax.swing.JButton DownDesignersSC;
+    private javax.swing.JButton DownEnsambladoresDC;
+    private javax.swing.JButton DownEnsambladoresSC;
+    private javax.swing.JButton DownGuionistasDC;
+    private javax.swing.JButton DownGuionistasPTDC;
+    private javax.swing.JButton DownGuionistasPTSC;
+    private javax.swing.JButton DownGuionistasSC;
+    private javax.swing.JTextField EnsambladoresDC;
+    private javax.swing.JTextField EnsambladoresSC;
+    private javax.swing.JTextField EscenariosActivosDC;
+    private javax.swing.JTextField EscenariosActivosSC;
+    private javax.swing.JTextField FaltasPM;
+    private javax.swing.JTextField GuionesActivosDC;
+    private javax.swing.JTextField GuionesActivosSC;
+    private javax.swing.JTextField GuionistasDC;
+    private javax.swing.JTextField GuionistasPTDC;
+    private javax.swing.JTextField GuionistasPTSC;
+    private javax.swing.JTextField GuionistasSC;
+    private javax.swing.JButton InicioSimulacion;
+    private javax.swing.JTextField PlotTwistActivosDC;
+    private javax.swing.JTextField PlotTwistActivosSC;
+    private javax.swing.JTextField SalarioPM;
+    private javax.swing.JLabel Titulo;
+    private javax.swing.JButton UpActoresDC;
+    private javax.swing.JButton UpActoresSC;
+    private javax.swing.JButton UpAnimadoresSC;
+    private javax.swing.JButton UpAnmiadoresDC;
+    private javax.swing.JButton UpDesignersDC;
+    private javax.swing.JButton UpDesignersSC;
+    private javax.swing.JButton UpEnsambladoresDC;
+    private javax.swing.JButton UpEnsambladoresSC;
+    private javax.swing.JButton UpGuionistasDC;
+    private javax.swing.JButton UpGuionistasPTDC;
+    private javax.swing.JButton UpGuionistasPTSC;
+    private javax.swing.JButton UpGuionistasSC;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1647,7 +1658,6 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
@@ -1677,72 +1687,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JButton velmaCierreUp;
-    private javax.swing.JButton velmaCierreUp1;
-    private javax.swing.JButton velmaCierreUp10;
-    private javax.swing.JButton velmaCierreUp11;
-    private javax.swing.JButton velmaCierreUp2;
-    private javax.swing.JButton velmaCierreUp3;
-    private javax.swing.JButton velmaCierreUp4;
-    private javax.swing.JButton velmaCierreUp5;
-    private javax.swing.JButton velmaCierreUp6;
-    private javax.swing.JButton velmaCierreUp7;
-    private javax.swing.JButton velmaCierreUp8;
-    private javax.swing.JButton velmaCierreUp9;
-    private javax.swing.JTextField velmaIntro;
-    private javax.swing.JTextField velmaIntro1;
-    private javax.swing.JTextField velmaIntro10;
     private javax.swing.JTextField velmaIntro11;
-    private javax.swing.JTextField velmaIntro12;
     private javax.swing.JTextField velmaIntro13;
-    private javax.swing.JTextField velmaIntro15;
-    private javax.swing.JTextField velmaIntro16;
-    private javax.swing.JTextField velmaIntro17;
-    private javax.swing.JTextField velmaIntro18;
-    private javax.swing.JTextField velmaIntro19;
-    private javax.swing.JTextField velmaIntro2;
-    private javax.swing.JTextField velmaIntro20;
-    private javax.swing.JTextField velmaIntro21;
-    private javax.swing.JTextField velmaIntro22;
-    private javax.swing.JTextField velmaIntro23;
-    private javax.swing.JTextField velmaIntro24;
-    private javax.swing.JTextField velmaIntro25;
-    private javax.swing.JTextField velmaIntro26;
-    private javax.swing.JTextField velmaIntro27;
-    private javax.swing.JTextField velmaIntro28;
-    private javax.swing.JTextField velmaIntro29;
-    private javax.swing.JTextField velmaIntro3;
-    private javax.swing.JTextField velmaIntro30;
-    private javax.swing.JTextField velmaIntro31;
-    private javax.swing.JTextField velmaIntro32;
-    private javax.swing.JTextField velmaIntro33;
-    private javax.swing.JTextField velmaIntro34;
-    private javax.swing.JTextField velmaIntro35;
-    private javax.swing.JTextField velmaIntro36;
-    private javax.swing.JTextField velmaIntro37;
-    private javax.swing.JTextField velmaIntro38;
-    private javax.swing.JTextField velmaIntro39;
-    private javax.swing.JTextField velmaIntro4;
-    private javax.swing.JTextField velmaIntro40;
-    private javax.swing.JTextField velmaIntro41;
-    private javax.swing.JTextField velmaIntro43;
-    private javax.swing.JTextField velmaIntro44;
-    private javax.swing.JTextField velmaIntro5;
-    private javax.swing.JTextField velmaIntro6;
-    private javax.swing.JTextField velmaIntro7;
-    private javax.swing.JTextField velmaIntro8;
-    private javax.swing.JTextField velmaIntro9;
-    private javax.swing.JButton velmaIntroDown;
-    private javax.swing.JButton velmaIntroDown1;
-    private javax.swing.JButton velmaIntroDown10;
-    private javax.swing.JButton velmaIntroDown11;
-    private javax.swing.JButton velmaIntroDown2;
-    private javax.swing.JButton velmaIntroDown3;
-    private javax.swing.JButton velmaIntroDown4;
-    private javax.swing.JButton velmaIntroDown5;
-    private javax.swing.JButton velmaIntroDown6;
-    private javax.swing.JButton velmaIntroDown7;
-    private javax.swing.JButton velmaIntroDown8;
-    private javax.swing.JButton velmaIntroDown9;
     // End of variables declaration//GEN-END:variables
 }
