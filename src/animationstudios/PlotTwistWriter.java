@@ -21,9 +21,11 @@ public class PlotTwistWriter extends Thread{
     private Developers dev;
     
     
-    public PlotTwistWriter(int ptAmount){
+    public PlotTwistWriter(Developers dev){
         
-        this.ptAmount = ptAmount;
+        this.dev = dev;
+        
+        this.ptAmount = dev.getPtAmount();
     
     }
 
@@ -33,14 +35,6 @@ public class PlotTwistWriter extends Thread{
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getPlotTwistAmount() {
-        return ptAmount;
-    }
-
-    public void setPlotTwistAmount(int ptAmount) {
-        this.ptAmount = ptAmount;
     }
 
     public Developers getDev() {
@@ -70,7 +64,7 @@ public class PlotTwistWriter extends Thread{
                 
                 s.acquire();
                 
-                driveAccess.addPart();
+                driveAccess.addPart(1);
                 
                 s.release();
                 

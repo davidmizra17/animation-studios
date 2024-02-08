@@ -21,9 +21,11 @@ public class Designer extends Thread{
     private Developers dev;
     
     
-    public Designer(int designerAmount){
+    public Designer(Developers dev){
         
-        this.designerAmount = designerAmount;
+        this.dev = dev;
+        
+        this.designerAmount = dev.getDesignerAmount();
     
     }
 
@@ -33,14 +35,6 @@ public class Designer extends Thread{
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getDesignerAmount() {
-        return designerAmount;
-    }
-
-    public void setDesignerAmount(int designerAmount) {
-        this.designerAmount = designerAmount;
     }
 
     public Developers getDev() {
@@ -70,7 +64,7 @@ public class Designer extends Thread{
                 
                 s.acquire();
                 
-                driveAccess.addPart();
+                driveAccess.addPart(1);
                 
                 s.release();
                 

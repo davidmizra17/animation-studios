@@ -10,14 +10,14 @@ package animationstudios;
  */
 public class Drive {
     
-    public int animations;
+    public int parts;
     
     public int capacity;
     
     
     public Drive(int capacity){
         
-        this.animations=0;
+        this.parts = 0;
         
         this.capacity = capacity;
         
@@ -25,14 +25,29 @@ public class Drive {
         
         
     }
+
+    public int getParts() {
+        return parts;
+    }
+
+    public void setParts(int parts) {
+        this.parts = parts;
+    }
     
-    public void addPart(){
+    public void addPart(int amount){
         
-     
-            this.animations += 1;
+            int partsAdded = amount;
             
-//            almacenamientoPartes[arrayIndex] = part;
+            if(getParts() + partsAdded >= capacity){
+                
+                setParts(capacity);
             
+            }
+            
+            else{
+                
+                setParts(getParts() + partsAdded);
+            }
             
             
             System.out.println("ha subido una parte");

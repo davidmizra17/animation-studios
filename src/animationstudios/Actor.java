@@ -20,9 +20,11 @@ public class Actor extends Thread{
     private Developers dev;
     
     
-    public Actor(int actorAmount){
+    public Actor(Developers dev){
         
-        this.actorAmount = actorAmount;
+        this.dev = dev;
+        
+        this.actorAmount = dev.getActorAmount();
     
     }
 
@@ -32,14 +34,6 @@ public class Actor extends Thread{
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getActorAmount() {
-        return actorAmount;
-    }
-
-    public void setActorAmount(int actorAmount) {
-        this.actorAmount = actorAmount;
     }
 
     public Developers getDev() {
@@ -69,7 +63,7 @@ public class Actor extends Thread{
                 
                 s.acquire();
                 
-                driveAccess.addPart();
+                driveAccess.addPart(1);
                 
                 s.release();
                 

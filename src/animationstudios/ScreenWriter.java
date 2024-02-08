@@ -26,10 +26,12 @@ public class ScreenWriter extends Thread {
         
         
         
-    public ScreenWriter(int swAmount) {
+    public ScreenWriter(Developers dev) {
             
             
-        this.swAmount = swAmount;
+        this.dev = dev;
+        
+        this.swAmount = dev.getSwAmount();
             
         
     }
@@ -40,14 +42,6 @@ public class ScreenWriter extends Thread {
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getSwAmount() {
-        return swAmount;
-    }
-
-    public void setSwAmount(int swAmount) {
-        this.swAmount = swAmount;
     }
 
     public Developers getDev() {
@@ -79,7 +73,7 @@ public class ScreenWriter extends Thread {
                 
                 s.acquire();
                 
-                driveAccess.addPart();
+                driveAccess.addPart(1);
                 
                 s.release();
                 

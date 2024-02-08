@@ -33,6 +33,15 @@ public class AnimationStudios {
 //        
 //        System.out.println(sw.getNombre());
 //        System.out.println("Animation Studios");
+
+        ScreenWriter sw = new ScreenWriter(12);
+        
+        Assembler as = new Assembler();
+        sw.start();
+        
+        as.assembleEpisode();
+        
+        System.out.println("NO CREO QUE LLEGUE HASTA ACA");
     }
     
 }

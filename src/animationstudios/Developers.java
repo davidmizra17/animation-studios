@@ -78,9 +78,15 @@ public class Developers extends Thread{
     
     private int dayDuration;
     
+    private int swAmount;
+    private int designerAmount;
+    private int animatorAmount;
+    private int actorAmount;
+    private int ptAmount;
     
     
-    public Developers(int SalaryPerHour, int driveCapacity, int dayDuration){
+    
+    public Developers(int SalaryPerHour, int driveCapacity, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount){
         
         //NOTA: USANDO HERENCIA EL CAMPO "TYPE" NO ES NECESARIO
         
@@ -91,6 +97,15 @@ public class Developers extends Thread{
         this.driveCapacity = driveCapacity;
         
         this.dayDuration = dayDuration;
+        
+        
+//        NUMBER OF WORKERS INITIALIZATION
+
+        this.swAmount = swAmount;
+        this.designerAmount = designerAmount;
+        this.animatorAmount = animatorAmount;
+        this.actorAmount = actorAmount;
+        this.ptAmount = ptAmount;
         
         //SEMAPHORES INITIALIZATION
         
@@ -117,6 +132,46 @@ public class Developers extends Thread{
         this.plotTwistWriterDrive = new Drive(10);
         
     
+    }
+
+    public int getSwAmount() {
+        return swAmount;
+    }
+
+    public void setSwAmount(int swAmount) {
+        this.swAmount = swAmount;
+    }
+
+    public int getDesignerAmount() {
+        return designerAmount;
+    }
+
+    public void setDesignerAmount(int designerAmount) {
+        this.designerAmount = designerAmount;
+    }
+
+    public int getAnimatorAmount() {
+        return animatorAmount;
+    }
+
+    public void setAnimatorAmount(int animatorAmount) {
+        this.animatorAmount = animatorAmount;
+    }
+
+    public int getActorAmount() {
+        return actorAmount;
+    }
+
+    public void setActorAmount(int actorAmount) {
+        this.actorAmount = actorAmount;
+    }
+
+    public int getPtAmount() {
+        return ptAmount;
+    }
+
+    public void setPtAmount(int ptAmount) {
+        this.ptAmount = ptAmount;
     }
 
     public Semaphore getScreenWriterSemaphore() {

@@ -20,9 +20,11 @@ public class Animator extends Thread{
     private Developers dev;
     
     
-    public Animator(int designerAmount){
+    public Animator(Developers dev){
         
-        this.animatorAmount = designerAmount;
+        this.dev = dev;
+        
+        this.animatorAmount = dev.getAnimatorAmount();
     
     }
 
@@ -32,14 +34,6 @@ public class Animator extends Thread{
 
     public void setSalary(int salary) {
         this.salary = salary;
-    }
-
-    public int getAnimatorAmount() {
-        return animatorAmount;
-    }
-
-    public void setAnimatorAmount(int AnimatorAmoun) {
-        this.animatorAmount = AnimatorAmoun;
     }
 
     public Developers getDev() {
@@ -69,7 +63,7 @@ public class Animator extends Thread{
                 
                 s.acquire();
                 
-                driveAccess.addPart();
+                driveAccess.addPart(1);
                 
                 s.release();
                 

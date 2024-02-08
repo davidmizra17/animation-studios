@@ -13,7 +13,16 @@ public class AssemblerDrive extends Drive{
     private int assemblers;
     
     public AssemblerDrive(int capacity){
+        
         super(capacity);
+
+    }
+    
+    public void addEpisode(int amount){
+        
+        int episodesAdded = amount;
+        
+        setParts(getParts() + episodesAdded);
     }
     
 }
