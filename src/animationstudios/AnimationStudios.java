@@ -22,15 +22,14 @@ public class AnimationStudios {
 //        public ScreenWriter(String type, int SalaryPerHour, String name, int driveCapacity, int dayDuration) {
 //        Developers developersInstance = new Developers("sw", 20, "juan", 25, 2000);
            Drive drive = new Drive(60);
-        Developers sw = new ScreenWriter("sw", 20, "juan", 25, 2000);
+        Developers.ScreenWriter sw = new Developers.ScreenWriter("sw", 20, "juan", 25, 2000);
         
         Developers.Designer dis = new Developers.Designer("sw", 20, "juan", 25, 2000);
         
-        Thread disThread = new Thread(dis);
+        
+        
         sw.start();
-        disThread.start();
-
-        dis.start();
+        
        
         
         System.out.println(sw.getNombre());

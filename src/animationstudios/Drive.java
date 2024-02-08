@@ -32,16 +32,16 @@ public class Drive {
         this.arrayIndex = 0;
     }
     
-    public void addPart(String part, String name){
+    public void addPart(){
         
      
             this.animations += 1;
             
-            almacenamientoPartes[arrayIndex] = part;
+//            almacenamientoPartes[arrayIndex] = part;
             
             
             
-            System.out.println(name + " ha subido una parte");
+            System.out.println("ha subido una parte");
             capacidad--;
             arrayIndex++;
             
