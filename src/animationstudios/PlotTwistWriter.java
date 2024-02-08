@@ -14,7 +14,7 @@ import java.util.concurrent.Semaphore;
 public class PlotTwistWriter extends Thread{
  
     
-    private int salary = 40;
+    private int salary = 34;
     
     private int ptAmount;
     
@@ -66,7 +66,7 @@ public class PlotTwistWriter extends Thread{
                 
                 
                 
-                sleep(dayDuration * 4000 / ptAmount);
+                sleep(dayDuration * 2000 / ptAmount);
                 
                 s.acquire();
                 

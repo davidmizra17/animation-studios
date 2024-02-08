@@ -13,7 +13,7 @@ import java.util.concurrent.Semaphore;
  */
 public class Actor extends Thread{
     
-    private int salary = 40;
+    private int salary = 16;
     
     private int actorAmount;
     

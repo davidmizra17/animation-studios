@@ -4,8 +4,7 @@
  */
 package animationstudios;
 
-import animationstudios.Developers.Designer;
-import animationstudios.Developers.ScreenWriter;
+
 import animationstudios.Drive;
 
 /**
@@ -21,19 +20,19 @@ public class AnimationStudios {
         // TODO code application logic here
 //        public ScreenWriter(String type, int SalaryPerHour, String name, int driveCapacity, int dayDuration) {
 //        Developers developersInstance = new Developers("sw", 20, "juan", 25, 2000);
-           Drive drive = new Drive(60);
-        Developers.ScreenWriter sw = new Developers.ScreenWriter("sw", 20, "juan", 25, 2000);
-        
-        Developers.Designer dis = new Developers.Designer("sw", 20, "juan", 25, 2000);
-        
-        
-        
-        sw.start();
-        
-       
-        
-        System.out.println(sw.getNombre());
-        System.out.println("Animation Studios");
+//           Drive drive = new Drive(60);
+//        Developers.ScreenWriter sw = new Developers.ScreenWriter("sw", 20, "juan", 25, 2000);
+//        
+//        Developers.Designer dis = new Developers.Designer("sw", 20, "juan", 25, 2000);
+//        
+//        
+//        
+//        sw.start();
+//        
+//       
+//        
+//        System.out.println(sw.getNombre());
+//        System.out.println("Animation Studios");
     }
     
 }

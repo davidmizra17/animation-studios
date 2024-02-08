@@ -12,24 +12,18 @@ public class Drive {
     
     public int animations;
     
-    public int capacidad;
+    public int capacity;
     
     
-    
-    //PRUEBA DE ALMACENAMIENTO
-    public String[] almacenamientoPartes;
-    
-    public int arrayIndex;
-    
-    public Drive(int capacidad){
+    public Drive(int capacity){
         
         this.animations=0;
         
-        this.capacidad = capacidad;
+        this.capacity = capacity;
         
-        this.almacenamientoPartes = new String[10];
         
-        this.arrayIndex = 0;
+        
+        
     }
     
     public void addPart(){
@@ -42,8 +36,8 @@ public class Drive {
             
             
             System.out.println("ha subido una parte");
-            capacidad--;
-            arrayIndex++;
+            capacity--;
+            
             
             
         

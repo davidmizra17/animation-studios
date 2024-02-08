@@ -23,6 +23,8 @@ public class Developers extends Thread{
     private Semaphore animatorSemaphore;
     private Semaphore actorSemaphore;
     private Semaphore plotTwistWriterSemaphore;
+    private Semaphore assemblerSemaphore;
+    private Semaphore directorSemaphore;
     
     //DRIVES FOR EACH GROUP OF WORKERS
     private Drive screenWriterDrive;
@@ -30,6 +32,40 @@ public class Developers extends Thread{
     private Drive animatorDrive;
     private Drive actorDrive;
     private Drive plotTwistWriterDrive;
+    private Drive assemblerDrive;
+    private Drive directorDrive;
+
+    public Semaphore getAssemblerSemaphore() {
+        return assemblerSemaphore;
+    }
+
+    public void setAssemblerSemaphore(Semaphore assemblerSemaphore) {
+        this.assemblerSemaphore = assemblerSemaphore;
+    }
+
+    public Semaphore getDirectorSemaphore() {
+        return directorSemaphore;
+    }
+
+    public void setDirectorSemaphore(Semaphore directorSemaphore) {
+        this.directorSemaphore = directorSemaphore;
+    }
+
+    public Drive getAssemblerDrive() {
+        return assemblerDrive;
+    }
+
+    public void setAssemblerDrive(Drive assemblerDrive) {
+        this.assemblerDrive = assemblerDrive;
+    }
+
+    public Drive getDirectorDrive() {
+        return directorDrive;
+    }
+
+    public void setDirectorDrive(Drive directorDrive) {
+        this.directorDrive = directorDrive;
+    }
     
     
     //numero de trabajadores con carnet terminado en 6
@@ -37,7 +73,6 @@ public class Developers extends Thread{
     private int n = 18;
     
     private int SalaryPerHour;
-    
     
     private int driveCapacity;
     
