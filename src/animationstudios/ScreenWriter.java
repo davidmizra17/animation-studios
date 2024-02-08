@@ -69,7 +69,7 @@ public class ScreenWriter extends Thread {
                 
                 
                 
-                sleep(dayDuration * 4000 / swAmount);
+//                sleep(dayDuration * 4000 / swAmount);
                 
                 s.acquire();
                 

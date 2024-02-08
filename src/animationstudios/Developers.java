@@ -34,7 +34,83 @@ public class Developers extends Thread{
     private Drive plotTwistWriterDrive;
     private Drive assemblerDrive;
     private Drive directorDrive;
+    
+    private int daysLeft;
 
+    
+    
+    
+    //numero de trabajadores con carnet terminado en 6
+    
+    private int n = 18;
+    
+    private int SalaryPerHour;
+    
+    private int driveCapacity;
+    
+    private int dayDuration;
+    
+    private int swAmount;
+    private int designerAmount;
+    private int animatorAmount;
+    private int actorAmount;
+    private int ptAmount;
+    private int assemblerAmount;
+    
+    
+    
+    public Developers(int daysLeft, int SalaryPerHour, int driveCapacity, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount, int assemblerAmount){
+        
+        //NOTA: USANDO HERENCIA EL CAMPO "TYPE" NO ES NECESARIO
+        
+        // -------------------
+        
+        this.SalaryPerHour = SalaryPerHour;
+        
+        this.driveCapacity = driveCapacity;
+        
+        this.dayDuration = dayDuration;
+        
+        this.daysLeft = daysLeft;
+        
+        
+        
+//        NUMBER OF WORKERS INITIALIZATION
+
+        this.swAmount = swAmount;
+        this.designerAmount = designerAmount;
+        this.animatorAmount = animatorAmount;
+        this.actorAmount = actorAmount;
+        this.ptAmount = ptAmount;
+        this.assemblerAmount = assemblerAmount;
+        
+        //SEMAPHORES INITIALIZATION
+        
+        this.screenWriterSemaphore = new Semaphore(1);
+        this.designerSemaphore = new Semaphore(1);
+        this.animatorSemaphore = new Semaphore(1);
+        this.actorSemaphore = new Semaphore(1);
+        this.plotTwistWriterSemaphore = new Semaphore(1);
+        
+//        DRIVES INTIALIZATION
+
+        this.screenWriterDrive = new Drive(25);
+        this.designerDrive = new Drive(20);
+        this.animatorDrive = new Drive(55);
+        this.actorDrive = new Drive(35);
+        this.plotTwistWriterDrive = new Drive(10);
+        
+    
+    }
+
+    public int getDaysLeft() {
+        return daysLeft;
+    }
+
+    public void setDaysLeft(int daysLeft) {
+        this.daysLeft = daysLeft;
+    }
+    
     public Semaphore getAssemblerSemaphore() {
         return assemblerSemaphore;
     }
@@ -65,73 +141,6 @@ public class Developers extends Thread{
 
     public void setDirectorDrive(Drive directorDrive) {
         this.directorDrive = directorDrive;
-    }
-    
-    
-    //numero de trabajadores con carnet terminado en 6
-    
-    private int n = 18;
-    
-    private int SalaryPerHour;
-    
-    private int driveCapacity;
-    
-    private int dayDuration;
-    
-    private int swAmount;
-    private int designerAmount;
-    private int animatorAmount;
-    private int actorAmount;
-    private int ptAmount;
-    
-    
-    
-    public Developers(int SalaryPerHour, int driveCapacity, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount){
-        
-        //NOTA: USANDO HERENCIA EL CAMPO "TYPE" NO ES NECESARIO
-        
-        // -------------------
-        
-        this.SalaryPerHour = SalaryPerHour;
-        
-        this.driveCapacity = driveCapacity;
-        
-        this.dayDuration = dayDuration;
-        
-        
-//        NUMBER OF WORKERS INITIALIZATION
-
-        this.swAmount = swAmount;
-        this.designerAmount = designerAmount;
-        this.animatorAmount = animatorAmount;
-        this.actorAmount = actorAmount;
-        this.ptAmount = ptAmount;
-        
-        //SEMAPHORES INITIALIZATION
-        
-        this.screenWriterSemaphore = new Semaphore(1);
-        
-        this.designerSemaphore = new Semaphore(1);
-        
-        this.animatorSemaphore = new Semaphore(1);
-        
-        this.actorSemaphore = new Semaphore(1);
-        
-        this.plotTwistWriterSemaphore = new Semaphore(1);
-        
-//        DRIVES INTIALIZATION
-
-        this.screenWriterDrive = new Drive(25);
-        
-        this.designerDrive = new Drive(20);
-        
-        this.animatorDrive = new Drive(55);
-        
-        this.actorDrive = new Drive(35);
-        
-        this.plotTwistWriterDrive = new Drive(10);
-        
-    
     }
 
     public int getSwAmount() {
@@ -200,6 +209,14 @@ public class Developers extends Thread{
 
     public Semaphore getActorSemaphore() {
         return actorSemaphore;
+    }
+
+    public int getAssemblerAmount() {
+        return assemblerAmount;
+    }
+
+    public void setAssemblerAmount(int assemblerAmount) {
+        this.assemblerAmount = assemblerAmount;
     }
 
     public void setActorSemaphore(Semaphore actorSemaphore) {

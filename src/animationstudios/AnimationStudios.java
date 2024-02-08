@@ -33,13 +33,19 @@ public class AnimationStudios {
 //        
 //        System.out.println(sw.getNombre());
 //        System.out.println("Animation Studios");
+        Drive drive = new Drive(20);
 
-        ScreenWriter sw = new ScreenWriter(12);
+        Developers dev = new Developers(3,2,3,4,2,3,4,5,6,5);
         
-        Assembler as = new Assembler();
+        dev.setScreenWriterDrive(drive);
+
+        ScreenWriter sw = new ScreenWriter(dev);
+        
+        
+        Assembler as = new Assembler(dev);
         sw.start();
-        
         as.assembleEpisode();
+//        as.start();
         
         System.out.println("NO CREO QUE LLEGUE HASTA ACA");
     }
