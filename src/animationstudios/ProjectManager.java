@@ -4,6 +4,9 @@
  */
 package animationstudios;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author davidmizrahi
@@ -77,7 +80,7 @@ public class ProjectManager extends Thread {
         this.dev = dev;
     }
     
-    public void testFunc() throws InterruptedException{
+    public void PMFunc() throws InterruptedException{
     
         int halfAnHour = (dayDuration / 48);
         
@@ -88,26 +91,44 @@ public class ProjectManager extends Thread {
             
             //CURRENTLY WATCHING ANIME
             setIsWatchingAnime(true);
+            
             sleep(halfAnHour);
+            
             timeSpent += halfAnHour;
             
-            
+            //CURRENTLY WORKING
             setIsWatchingAnime(false);
             
-            //THE PM IS CURRENTLY WORKING   
+            sleep(halfAnHour);
             
-            
-            
-            
-        
+           
             ++hourCounter;
             
         
         }
         
-        if(hourCounter == 24) --daysLeft;
+        //CURRENTLY WORKING
+        setIsWatchingAnime(false);
+        
+        
+       --daysLeft;
         
         //AMOUNT 
+    }
+    
+    
+    @Override
+    public void run(){
+        
+        try {
+            
+            PMFunc();
+            
+        } catch (InterruptedException ex) {
+            
+            Logger.getLogger(ProjectManager.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
     }
     
     

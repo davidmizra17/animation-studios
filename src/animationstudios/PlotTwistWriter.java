@@ -56,7 +56,7 @@ public class PlotTwistWriter extends Thread{
                 
                 
                 
-                System.out.println("FUCK U NIGGA");
+                
                 
                 
                 

@@ -55,7 +55,7 @@ public class Animator extends Thread{
                 
                 
                 
-                System.out.println("FUCK U NIGGA");
+                
                 
                 
                 

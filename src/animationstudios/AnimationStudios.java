@@ -16,7 +16,7 @@ public class AnimationStudios {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // TODO code application logic here
 //        public ScreenWriter(String type, int SalaryPerHour, String name, int driveCapacity, int dayDuration) {
 //        Developers developersInstance = new Developers("sw", 20, "juan", 25, 2000);
@@ -35,7 +35,7 @@ public class AnimationStudios {
 //        System.out.println("Animation Studios");
         Drive drive = new Drive(20);
 
-        Developers dev = new Developers(3,2,3,4,2,3,4,5,6,5);
+        Developers dev = new Developers(3,4,2,3,4,5,6,5);
         
         dev.setScreenWriterDrive(drive);
 

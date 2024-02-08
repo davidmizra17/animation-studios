@@ -56,7 +56,7 @@ public class Designer extends Thread{
                 
                 
                 
-                System.out.println("FUCK U NIGGA");
+                
                 
                 
                 

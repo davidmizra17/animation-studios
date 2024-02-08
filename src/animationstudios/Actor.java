@@ -55,7 +55,7 @@ public class Actor extends Thread{
                 
                 
                 
-                System.out.println("FUCK U NIGGA");
+                
                 
                 
                 

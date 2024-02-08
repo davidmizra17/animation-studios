@@ -35,18 +35,20 @@ public class Developers extends Thread{
     private Drive assemblerDrive;
     private Drive directorDrive;
     
+    //DAYS LEFT TILL EPISODE RELEASE
     private int daysLeft;
 
+//    PROFIT VARIABLES
+    private int ProfitPerRegularEpisode;
+    private int ProfitPerPlotTwistEpisode;
+    
+    
     
     
     
     //numero de trabajadores con carnet terminado en 6
     
     private int n = 18;
-    
-    private int SalaryPerHour;
-    
-    private int driveCapacity;
     
     private int dayDuration;
     
@@ -57,17 +59,17 @@ public class Developers extends Thread{
     private int ptAmount;
     private int assemblerAmount;
     
+    //COMPANY NAME
+    private String companyName;
     
     
-    public Developers(int daysLeft, int SalaryPerHour, int driveCapacity, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount, int assemblerAmount){
+    
+    public Developers(int companyName, int daysLeft, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount, int assemblerAmount){
         
         //NOTA: USANDO HERENCIA EL CAMPO "TYPE" NO ES NECESARIO
         
         // -------------------
         
-        this.SalaryPerHour = SalaryPerHour;
-        
-        this.driveCapacity = driveCapacity;
         
         this.dayDuration = dayDuration;
         
@@ -279,21 +281,6 @@ public class Developers extends Thread{
         this.n = n;
     }
 
-    public int getSalaryPerHour() {
-        return SalaryPerHour;
-    }
-
-    public void setSalaryPerHour(int SalaryPerHour) {
-        this.SalaryPerHour = SalaryPerHour;
-    }
-
-    public int getDriveCapacity() {
-        return driveCapacity;
-    }
-
-    public void setDriveCapacity(int driveCapacity) {
-        this.driveCapacity = driveCapacity;
-    }
 
     public int getDayDuration() {
         return dayDuration;
@@ -302,6 +289,24 @@ public class Developers extends Thread{
     public void setDayDuration(int dayDuration) {
         this.dayDuration = dayDuration;
     }
+
+    public int getProfitPerRegularEpisode() {
+        return ProfitPerRegularEpisode;
+    }
+
+    public void setProfitPerRegularEpisode(int ProfitPerRegularEpisode) {
+        this.ProfitPerRegularEpisode = ProfitPerRegularEpisode;
+    }
+
+    public int getProfitPerPlotTwistEpisode() {
+        return ProfitPerPlotTwistEpisode;
+    }
+
+    public void setProfitPerPlotTwistEpisode(int ProfitPerPlotTwistEpisode) {
+        this.ProfitPerPlotTwistEpisode = ProfitPerPlotTwistEpisode;
+    }
+    
+    
 }
     
   

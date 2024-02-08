@@ -41,14 +41,14 @@ public class Assembler extends Thread{
     
     //----------TEST REQUIREMENTS--------------
     
-    private int swRequirements = 1;
-    private int designRequirements = 1;
-    private int animatorRequirements = 2;
-    private int actorRequirements = 4;
+    private int swRequirements;
+    private int designRequirements;
+    private int animatorRequirements;
+    private int actorRequirements;
     
     //----------TEST REQUIREMENTS--------------
     
-    public Assembler(Developers dev){
+    public Assembler(Developers dev, int swRequirements, int designRequirements, int animatorRequirements, int actorRequirements){
         
         this.dev = dev;
         
@@ -71,6 +71,13 @@ public class Assembler extends Thread{
         this.plotTwistWriterDrive = dev.getPlotTwistWriterDrive();
         this.assemblerDrive = dev.getAssemblerDrive();
         this.directorDrive = dev.getDirectorDrive();
+        
+        //  REQUIREMENTS INITIALIZATION
+        
+        this.swRequirements = swRequirements;
+        this.designRequirements = designRequirements;
+        this.animatorRequirements = animatorRequirements;
+        this.actorRequirements = actorRequirements;
         
         
     }

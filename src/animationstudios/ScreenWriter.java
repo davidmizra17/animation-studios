@@ -65,7 +65,7 @@ public class ScreenWriter extends Thread {
                 
                 
                 
-                System.out.println("FUCK U NIGGA");
+                
                 
                 
                 
