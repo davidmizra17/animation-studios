@@ -16,7 +16,9 @@ public class AnimationStudios {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Animation Studios");
+        Interfaz interfaz = new Interfaz();
+        interfaz.setVisible(true);
+        //interfaz.Leer();
     }
     
 }
