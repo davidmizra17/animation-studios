@@ -132,6 +132,8 @@ public class Assembler extends Thread{
     }
     @Override
     public void run(){
+        
+        while(true){
         try {
             
             sleep(dayDuration * 2000 / assemblersAmount);
@@ -141,6 +143,7 @@ public class Assembler extends Thread{
         }
         
         
+    }
     }
     
     

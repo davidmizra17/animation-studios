@@ -161,13 +161,20 @@ public class ProjectManager extends Thread {
         //AMOUNT 
     }
     
+    public int payPM(){
+        return timeSpent * salary;
+    }
+    
     
     @Override
     public void run(){
         
+        while(true){
+        
         try {
             
             PMFunc();
+            payPM();
             
         } catch (InterruptedException ex) {
             
@@ -175,7 +182,7 @@ public class ProjectManager extends Thread {
         }
     
     }
-    
+    }
     
     
     

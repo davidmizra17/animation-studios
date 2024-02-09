@@ -47,6 +47,8 @@ public class PlotTwistWriter extends Thread{
     
     @Override
     public void run(){
+        
+        while(true){
         try{
                 int dayDuration = dev.getDayDuration();
                 
@@ -77,6 +79,7 @@ public class PlotTwistWriter extends Thread{
                 
                     ex.printStackTrace();
             }
+    }
     }
     
     

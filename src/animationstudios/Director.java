@@ -104,6 +104,8 @@ public class Director extends Thread {
             
             int episodesAdded = dev.getAssemblerDrive().getParts();
             
+            
+            
             int plotTwistEpisodesAdded = dev.getAssemblerDrive().getParts();
             
             int profit = (dev.getProfitPerRegularEpisode() * episodesAdded + dev.getProfitPerPlotTwistEpisode() * plotTwistEpisodesAdded);
@@ -133,6 +135,7 @@ public class Director extends Thread {
             
             if(0 < randomHour && randomHour <=16){
                 
+                
                 //CURRENTLY CHECKING ON PM FOR THE NEXT 35 MINUTES
                 sleep(halfAnHourDirector);
                 
@@ -155,12 +158,15 @@ public class Director extends Thread {
     
     @Override
     public void run(){
+        
+        while(true){
         try {
             sendEpisode();
                     } catch (InterruptedException ex) {
             Logger.getLogger(Director.class.getName()).log(Level.SEVERE, null, ex);
         }
         
+    }
     }
     
     

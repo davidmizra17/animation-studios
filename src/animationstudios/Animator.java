@@ -46,6 +46,9 @@ public class Animator extends Thread{
     
     @Override
     public void run(){
+        
+        while(true){
+        
         try{
                 int dayDuration = dev.getDayDuration();
                 
@@ -77,7 +80,7 @@ public class Animator extends Thread{
                     ex.printStackTrace();
             }
     }
-    
+    }
     
     
 }

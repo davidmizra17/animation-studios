@@ -47,6 +47,7 @@ public class Designer extends Thread{
     
     @Override
     public void run(){
+        while(true){
         try{
                 int dayDuration = dev.getDayDuration();
                 
@@ -74,7 +75,7 @@ public class Designer extends Thread{
                     ex.printStackTrace();
             }
     }
-    
+    }
     
     
 }

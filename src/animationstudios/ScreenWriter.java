@@ -54,7 +54,7 @@ public class ScreenWriter extends Thread {
                    
         @Override
         public void run(){
-            
+            while(true){
             try{
                 
                 int dayDuration = dev.getDayDuration();
@@ -62,12 +62,6 @@ public class ScreenWriter extends Thread {
                 Drive driveAccess = dev.getScreenWriterDrive();
                 
                 Semaphore s = dev.getScreenWriterSemaphore();
-                
-                
-                
-                
-                
-                
                 
                 sleep(dayDuration * 4000 / swAmount);
                 
@@ -87,7 +81,7 @@ public class ScreenWriter extends Thread {
                     ex.printStackTrace();
             }
         }
-        
+        }
   }
     
     

@@ -46,6 +46,7 @@ public class Developers extends Thread{
     
     
     
+    
     //numero de trabajadores con carnet terminado en 6
     
     private int n = 18;
