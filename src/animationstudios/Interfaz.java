@@ -50,7 +50,12 @@ public class Interfaz extends javax.swing.JFrame {
     int Ensambladores=0;
     
     Developers devDC = new Developers(CantidadDias,DuracionDias,Guionistas,Animadores,Designers,ActoresD,GuionistasPT,Ensambladores);
-    
+    ScreenWriter guionistaD = new ScreenWriter(devDC);
+    Designer designerD = new Designer(devDC);
+    Animator animadorD = new Animator(devDC);
+    Actor actorD = new Actor(devDC);
+    PlotTwistWriter plottwistD = new PlotTwistWriter(devDC);
+    Assembler ensambladorD = new Assembler(devDC,1,1,2,4);
     
     
     //    Star Chanel
@@ -62,7 +67,12 @@ public class Interfaz extends javax.swing.JFrame {
     int EnsambladoresStarC=0;
     
     Developers devSC = new Developers(CantidadDias,DuracionDias,GuionistasStarC,AnimadoresStarC,DesignersStarC,ActoresDStarC,GuionistasPTStarC,EnsambladoresStarC);
-    
+    ScreenWriter guionistaS = new ScreenWriter(devSC);
+    Designer designerS = new Designer(devSC);
+    Animator animadorS = new Animator(devSC);
+    Actor actorS = new Actor(devSC);
+    PlotTwistWriter plottwistS = new PlotTwistWriter(devSC);
+    Assembler ensambladorS = new Assembler(devSC,2,3,4,6);
     
     
     public Interfaz() {
@@ -1126,17 +1136,24 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
         int inputDuracionDias = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el tiempo que dura un dia en segundos: "));
         int inputCantidadDias = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de dias entre lanzamientos: "));
- 
-        int inputGuionistas = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas: "));
-        int inputDesigners = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores: "));
-        int inputAnimadores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes: "));
-        int inputActoresD = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje: "));
-        int inputGuionistasPT = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist: "));
-        int inputEnsambladores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores: "));
-
-        String archivotxt = inputDuracionDias + "//" + inputCantidadDias + "//" + inputGuionistas + "," + inputDesigners + "," + inputAnimadores + "," + inputActoresD + "," + inputGuionistasPT + "//" + inputEnsambladores;
         
-        BufferedReader br;
+//      Disney Chanel
+        int inputGuionistas = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Disney Chanel: "));
+        int inputDesigners = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores de Disney Chanel: "));
+        int inputAnimadores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes de Disney Chanel: "));
+        int inputActoresD = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje de Disney Chanel: "));
+        int inputGuionistasPT = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist de Disney Chanel: "));
+        int inputEnsambladores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores de Disney Chanel: "));
+        
+//      Star Chanel
+        int inputGuionistasStarC = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Star Chanel: "));
+        int inputDesignersStarC = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores de Star Chanel: "));
+        int inputAnimadoresStarC = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes de Star Chanel: "));
+        int inputActoresDStarC = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje de Star Chanel: "));
+        int inputGuionistasPTStarC = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist de Star Chanel: "));
+        int inputEnsambladoresStarC = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores de Star Chanel: "));
+
+        String archivotxt = inputDuracionDias + "//" + inputCantidadDias + "//" + inputGuionistas + "," + inputDesigners + "," + inputAnimadores + "," + inputActoresD + "," + inputGuionistasPT + "," + inputEnsambladores + "//" + inputGuionistasStarC + "," + inputDesignersStarC + "," + inputAnimadoresStarC + "," + inputActoresDStarC + "," + inputGuionistasPTStarC + "," + inputEnsambladoresStarC;
         
         try {
             PrintStream out = new PrintStream(new FileOutputStream("archivo.txt"));
@@ -1149,6 +1166,68 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void InicioSimulacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InicioSimulacionActionPerformed
         // TODO add your handling code here:
+        BufferedReader br;
+        try{
+            br = new BufferedReader(new FileReader("config.txt"));
+            String datos = br.readLine();
+            String[] datoSplit = datos.split("//");
+            String[] trabajadoresDC = datoSplit[2].split(",");
+            String[] trabajadoresSC = datoSplit[3].split(",");
+            
+            DuracionDias = Integer.parseInt(datoSplit[0]);
+            CantidadDias = Integer.parseInt(datoSplit[1]);
+            
+            Guionistas = Integer.parseInt(trabajadoresDC[0]);
+            Designers = Integer.parseInt(trabajadoresDC[1]);
+            Animadores = Integer.parseInt(trabajadoresDC[2]);
+            ActoresD = Integer.parseInt(trabajadoresDC[3]);
+            GuionistasPT = Integer.parseInt(trabajadoresDC[4]);
+            Ensambladores = Integer.parseInt(trabajadoresDC[5]);
+            
+            devDC.setDaysLeft(CantidadDias);
+            devDC.setDayDuration(DuracionDias);
+            devDC.setSwAmount(Guionistas);
+            devDC.setDesignerAmount(Designers);
+            devDC.setAnimatorAmount(Animadores);
+            devDC.setActorAmount(ActoresD);
+            devDC.setPtAmount(GuionistasPT);
+            devDC.setAssemblerAmount(Ensambladores);
+            
+            guionistaD.setDev(devDC);
+            designerD.setDev(devDC);
+            animadorD.setDev(devDC);
+            actorD.setDev(devDC);
+            plottwistD.setDev(devDC);
+            ensambladorD.setDev(devDC);
+            
+            
+            GuionistasStarC = Integer.parseInt(trabajadoresSC[0]);
+            DesignersStarC = Integer.parseInt(trabajadoresSC[1]);
+            AnimadoresStarC = Integer.parseInt(trabajadoresSC[2]);
+            ActoresDStarC = Integer.parseInt(trabajadoresSC[3]);
+            GuionistasPTStarC = Integer.parseInt(trabajadoresSC[4]);
+            EnsambladoresStarC = Integer.parseInt(trabajadoresSC[5]);
+            
+            devSC.setDaysLeft(CantidadDias);
+            devSC.setDayDuration(DuracionDias);
+            devSC.setSwAmount(GuionistasStarC);
+            devSC.setDesignerAmount(DesignersStarC);
+            devSC.setAnimatorAmount(AnimadoresStarC);
+            devSC.setActorAmount(ActoresDStarC);
+            devSC.setPtAmount(GuionistasPTStarC);
+            devSC.setAssemblerAmount(EnsambladoresStarC);
+            
+            guionistaS.setDev(devSC);
+            designerS.setDev(devSC);
+            animadorS.setDev(devSC);
+            actorS.setDev(devSC);
+            plottwistS.setDev(devSC);
+            ensambladorS.setDev(devSC);
+            
+            
+        }catch(Exception e){
+            
+        }
     }//GEN-LAST:event_InicioSimulacionActionPerformed
 
     private void TituloPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_TituloPropertyChange
