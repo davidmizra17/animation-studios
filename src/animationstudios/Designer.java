@@ -56,10 +56,6 @@ public class Designer extends Thread{
                 
                 
                 
-                
-                
-                
-                
                 sleep(dayDuration * 4000 / designerAmount);
                 
                 s.acquire();

@@ -59,7 +59,7 @@ public class Animator extends Thread{
                 
                 
                 
-                sleep(dayDuration * 4000 / animatorAmount);
+                sleep(dayDuration);
                 
                 s.acquire();
                 

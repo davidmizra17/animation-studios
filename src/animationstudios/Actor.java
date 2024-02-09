@@ -59,11 +59,11 @@ public class Actor extends Thread{
                 
                 
                 
-                sleep(dayDuration * 4000 / actorAmount);
+                sleep(dayDuration);
                 
                 s.acquire();
                 
-                driveAccess.addPart(1);
+                driveAccess.addPart(5);
                 
                 s.release();
                 

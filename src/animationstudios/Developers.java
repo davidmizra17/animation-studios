@@ -60,11 +60,11 @@ public class Developers extends Thread{
     private int assemblerAmount;
     
     //COMPANY NAME
-    private String companyName;
+//    private String companyName;
     
     
     
-    public Developers(int companyName, int daysLeft, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount, int assemblerAmount){
+    public Developers(int daysLeft, int dayDuration, int swAmount, int animatorAmount, int designerAmount,int actorAmount, int ptAmount, int assemblerAmount){
         
         //NOTA: USANDO HERENCIA EL CAMPO "TYPE" NO ES NECESARIO
         
@@ -74,6 +74,8 @@ public class Developers extends Thread{
         this.dayDuration = dayDuration;
         
         this.daysLeft = daysLeft;
+        
+        
         
         
         
