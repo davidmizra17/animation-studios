@@ -15,6 +15,18 @@ import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+import animationstudios.Actor;
+import animationstudios.AnimationStudios;
+import animationstudios.Animator;
+import animationstudios.Assembler;
+import animationstudios.AssemblerDrive;
+import animationstudios.Designer;
+import animationstudios.Developers;
+import animationstudios.Director;
+import animationstudios.Drive;
+import animationstudios.PlotTwistWriter;
+import animationstudios.ProjectManager;
+import animationstudios.ScreenWriter;
 
 /**
  *
@@ -26,12 +38,32 @@ public class Interfaz extends javax.swing.JFrame {
      * Creates new form Interfaz
      */
     
-    int inputGuionistas=0;
-    int inputDesigners=0;
-    int inputAnimadores=0;
-    int inputActoresD=0;
-    int inputGuionistasPT=0;
-    int inputEnsambladores=0;
+    int DuracionDias = 86400;
+    int CantidadDias = 20; 
+    
+//    Disney Chanel
+    int Guionistas=0;
+    int Designers=0;
+    int Animadores=0;
+    int ActoresD=0;
+    int GuionistasPT=0;
+    int Ensambladores=0;
+    
+    Developers devDC = new Developers(CantidadDias,DuracionDias,Guionistas,Animadores,Designers,ActoresD,GuionistasPT,Ensambladores);
+    
+    
+    
+    //    Star Chanel
+    int GuionistasStarC=0;
+    int DesignersStarC=0;
+    int AnimadoresStarC=0;
+    int ActoresDStarC=0;
+    int GuionistasPTStarC=0;
+    int EnsambladoresStarC=0;
+    
+    Developers devSC = new Developers(CantidadDias,DuracionDias,GuionistasStarC,AnimadoresStarC,DesignersStarC,ActoresDStarC,GuionistasPTStarC,EnsambladoresStarC);
+    
+    
     
     public Interfaz() {
         initComponents();
@@ -1092,24 +1124,16 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void CambioValoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CambioValoresActionPerformed
         // TODO add your handling code here:
-        String inputDuracionDias = JOptionPane.showInputDialog(null, "Ingrese el tiempo que dura un dia en segundos: ");
-        String inputCantidadDias = JOptionPane.showInputDialog(null, "Ingrese la cantidad de dias entre lanzamientos: ");
+        int inputDuracionDias = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el tiempo que dura un dia en segundos: "));
+        int inputCantidadDias = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de dias entre lanzamientos: "));
  
-        inputGuionistas = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas: "));
-        inputDesigners = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores: "));
-        inputAnimadores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes: "));
-        inputActoresD = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje: "));
-        inputGuionistasPT = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist: "));
-        inputEnsambladores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores: "));
+        int inputGuionistas = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas: "));
+        int inputDesigners = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores: "));
+        int inputAnimadores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes: "));
+        int inputActoresD = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje: "));
+        int inputGuionistasPT = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist: "));
+        int inputEnsambladores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores: "));
 
-                
-              
-//            }catch (NumberFormatException nfe){
-//                JOptionPane.showMessageDialog(null, "Error, la cantidad de trabajadores y ensambladores no debe ser mayor a 18.");
-//            }
-        
-        
-        
         String archivotxt = inputDuracionDias + "//" + inputCantidadDias + "//" + inputGuionistas + "," + inputDesigners + "," + inputAnimadores + "," + inputActoresD + "," + inputGuionistasPT + "//" + inputEnsambladores;
         
         BufferedReader br;
