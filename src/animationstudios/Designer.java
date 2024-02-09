@@ -48,16 +48,13 @@ public class Designer extends Thread{
     
     @Override
     public void run(){
+        while(true){
         try{
                 int dayDuration = dev.getDayDuration();
                 
                 Drive driveAccess = dev.getDesignerDrive();
                 
                 Semaphore s = dev.getDesignerSemaphore();
-                
-                
-                
-                
                 
                 
                 
@@ -79,7 +76,7 @@ public class Designer extends Thread{
                     ex.printStackTrace();
             }
     }
-    
+    }
     
     
 }

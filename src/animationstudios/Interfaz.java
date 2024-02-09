@@ -1201,6 +1201,7 @@ public class Interfaz extends javax.swing.JFrame {
             ensambladorD.setDev(devDC);
             
             
+            
             GuionistasStarC = Integer.parseInt(trabajadoresSC[0]);
             DesignersStarC = Integer.parseInt(trabajadoresSC[1]);
             AnimadoresStarC = Integer.parseInt(trabajadoresSC[2]);

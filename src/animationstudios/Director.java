@@ -6,8 +6,10 @@
 package animationstudios;
 
 import static java.lang.Thread.sleep;
+import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JTextField;
 
 /**
  *
@@ -22,14 +24,20 @@ public class Director extends Thread {
     
     private int dayDuration;
     
+    private int timeSpent;
+    
     private ProjectManager pm;
     
     private Developers dev;
+    
+    private JTextField daysEnteredByUser;
     
     
     public Director(ProjectManager pm, Developers dev){
         
         this.dev = dev;
+        
+        this.timeSpent = 0;
         
         this.pm = pm;
         
@@ -62,6 +70,31 @@ public class Director extends Thread {
     public void setPm(ProjectManager pm) {
         this.pm = pm;
     }
+
+    public int getDayDuration() {
+        return dayDuration;
+    }
+
+    public void setDayDuration(int dayDuration) {
+        this.dayDuration = dayDuration;
+    }
+
+    public int getTimeSpent() {
+        return timeSpent;
+    }
+
+    public void setTimeSpent(int timeSpent) {
+        this.timeSpent = timeSpent;
+    }
+
+    public Developers getDev() {
+        return dev;
+    }
+
+    public void setDev(Developers dev) {
+        this.dev = dev;
+    }
+    
     
     public void sendEpisode() throws InterruptedException{
         
@@ -73,10 +106,52 @@ public class Director extends Thread {
             
             int episodesAdded = dev.getAssemblerDrive().getParts();
             
+            
+            
             int plotTwistEpisodesAdded = dev.getAssemblerDrive().getParts();
             
             int profit = (dev.getProfitPerRegularEpisode() * episodesAdded + dev.getProfitPerPlotTwistEpisode() * plotTwistEpisodesAdded);
             
+            
+            //PARA VOLVER A SETEAR LOS DIAS SE LE PUEDE PASAR EL VALOR 
+//            QUE INGRESO EL USUARIO ANTES DE 
+//            CORRER LA SIMULACION Y ESO LO HARIAMOS CON UN JTEXT 
+//              FIELD COMO PARAMETRO Y QUE SE LLAME A ESTA CLASE DESDE LA INTERFAZ
+
+
+//            dev.setDaysLeft(0);
+
+
+            
+            
+            
+        }else{
+            
+            
+            
+            Random random = new Random();
+            
+            int n = dayDuration/35;
+            int halfAnHourDirector = dayDuration/n;
+            int randomHour = random.nextInt(24);
+            
+            if(0 < randomHour && randomHour <=16){
+                
+                
+                //CURRENTLY CHECKING ON PM FOR THE NEXT 35 MINUTES
+                sleep(halfAnHourDirector);
+                
+                if(pm.getIsWatchingAnime() == true){
+                    
+                    
+                    System.out.println("PM CAUGHT WATCHING ANIME");
+                    pm.setFaults(pm.getFaults() + 1);
+                    
+                    
+                    
+                    
+                }
+            }
             
             
         }
@@ -85,12 +160,15 @@ public class Director extends Thread {
     
     @Override
     public void run(){
+        
+        while(true){
         try {
             sendEpisode();
                     } catch (InterruptedException ex) {
             Logger.getLogger(Director.class.getName()).log(Level.SEVERE, null, ex);
         }
         
+    }
     }
     
     

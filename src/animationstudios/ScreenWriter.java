@@ -7,6 +7,7 @@ package animationstudios;
 
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
+import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;
 
 /**
@@ -55,7 +56,7 @@ public class ScreenWriter extends Thread {
                    
         @Override
         public void run(){
-            
+            while(true){
             try{
                 
                 int dayDuration = dev.getDayDuration();
@@ -64,13 +65,7 @@ public class ScreenWriter extends Thread {
                 
                 Semaphore s = dev.getScreenWriterSemaphore();
                 
-                
-                
-                
-                
-                
-                
-//                sleep(dayDuration * 4000 / swAmount);
+                sleep(dayDuration * 4000 / swAmount);
                 
                 s.acquire();
                 
@@ -88,7 +83,7 @@ public class ScreenWriter extends Thread {
                     ex.printStackTrace();
             }
         }
-        
+        }
   }
     
     

@@ -45,8 +45,18 @@ public class Animator extends Thread{
         this.dev = dev;
     }
     
+    public int payAnimator(){
+        int hour = dev.getDayDuration() / 24;
+        
+        return hour * salary;
+        
+    }
+    
     @Override
     public void run(){
+        
+        while(true){
+        
         try{
                 int dayDuration = dev.getDayDuration();
                 
@@ -60,7 +70,7 @@ public class Animator extends Thread{
                 
                 
                 
-                sleep(dayDuration * 4000 / animatorAmount);
+                sleep(dayDuration);
                 
                 s.acquire();
                 
@@ -78,7 +88,7 @@ public class Animator extends Thread{
                     ex.printStackTrace();
             }
     }
-    
+    }
     
     
 }

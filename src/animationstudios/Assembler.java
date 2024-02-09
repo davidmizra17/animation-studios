@@ -107,7 +107,7 @@ public class Assembler extends Thread{
         designerSemaphore.acquire();
         animatorSemaphore.acquire();
         actorSemaphore.acquire();
-//        plotTwistWriterSemaphore.acquire();
+        plotTwistWriterSemaphore.acquire();
         
         
         if(
@@ -129,11 +129,40 @@ public class Assembler extends Thread{
             actorSemaphore.release();
             
         }
+        
+//        screenWriterSemaphore.acquire();
+//        designerSemaphore.acquire();
+//        animatorSemaphore.acquire();
+//        actorSemaphore.acquire();
+////        plotTwistWriterSemaphore.acquire();
+//        
+//        
+//        if(
+//                screenWriterDrive.getParts() >= swRequirements 
+//                && designerDrive.getParts() >= designRequirements 
+//                && animatorDrive.getParts() >= animatorRequirements 
+//                && actorDrive.getParts() >= actorRequirements
+//                
+//                )
+//        {
+//            assemblerSemaphore.acquire();
+//            
+//            assemblerDrive.addPart(1);
+//            
+//            assemblerSemaphore.release();
+//            screenWriterSemaphore.release();
+//            designerSemaphore.release();
+//            animatorSemaphore.release();
+//            actorSemaphore.release();
+//            
+//        }
        
         
     }
     @Override
     public void run(){
+        
+        while(true){
         try {
             
             sleep(dayDuration * 2000 / assemblersAmount);
@@ -143,6 +172,7 @@ public class Assembler extends Thread{
         }
         
         
+    }
     }
     
     

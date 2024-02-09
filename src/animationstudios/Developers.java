@@ -47,6 +47,7 @@ public class Developers extends Thread{
     
     
     
+    
     //numero de trabajadores con carnet terminado en 6
     
     private int n = 18;
@@ -61,7 +62,7 @@ public class Developers extends Thread{
     private int assemblerAmount;
     
     //COMPANY NAME
-    private String companyName;
+//    private String companyName;
     
     
     
@@ -75,6 +76,8 @@ public class Developers extends Thread{
         this.dayDuration = dayDuration;
         
         this.daysLeft = daysLeft;
+        
+        
         
         
         
