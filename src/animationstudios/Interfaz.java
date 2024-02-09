@@ -1094,27 +1094,14 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
         String inputDuracionDias = JOptionPane.showInputDialog(null, "Ingrese el tiempo que dura un dia en segundos: ");
         String inputCantidadDias = JOptionPane.showInputDialog(null, "Ingrese la cantidad de dias entre lanzamientos: ");
-        
-        boolean flag = inputGuionistas + inputDesigners + inputAnimadores + inputActoresD + inputGuionistasPT + inputEnsambladores <= 18;
-        
-      
-//            try{
-                while (flag){
-                inputGuionistas = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas: "));
-                inputDesigners = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores: "));
-                inputAnimadores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes: "));
-                inputActoresD = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje: "));
-                inputGuionistasPT = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist: "));
-                inputEnsambladores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores: "));
-                
-                if(inputGuionistas + inputDesigners + inputAnimadores + inputActoresD + inputGuionistasPT + inputEnsambladores > 18){
-                     JOptionPane.showMessageDialog(null, "Error, intente de nuevo.");
-                    
-                }else{
-                    break;
-                }
-                }
-                
+ 
+        inputGuionistas = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas: "));
+        inputDesigners = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de diseñadores: "));
+        inputAnimadores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de animadores de personajes: "));
+        inputActoresD = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de actores de doblaje: "));
+        inputGuionistasPT = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de guionistas de Plot twist: "));
+        inputEnsambladores = Integer.parseInt(JOptionPane.showInputDialog(null, "Cantidad de ensambladores: "));
+
                 
               
 //            }catch (NumberFormatException nfe){
