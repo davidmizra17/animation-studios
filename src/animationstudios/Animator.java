@@ -44,6 +44,13 @@ public class Animator extends Thread{
         this.dev = dev;
     }
     
+    public int payAnimator(){
+        int hour = dev.getDayDuration() / 24;
+        
+        return hour * salary;
+        
+    }
+    
     @Override
     public void run(){
         
